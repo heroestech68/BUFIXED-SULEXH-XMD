@@ -61,7 +61,7 @@ ezra({ nomCom: "getallmembers", categorie: 'Fredi-Group', reaction: "📣" }, as
   let mess = Array.isArray(arg) && arg.length ? arg.join(' ') : 'No message provided';
   let membresGroupe = verifGroupe && infosGroupe ? infosGroupe.participants || [] : [];
 
-  let tag = `☢️ JEEPERS CREEPER-XMD☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
+  let tag = `☢️ BUGFIXED SULEXH-XMD☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
         🌟 *GROUP MEMBERS GIDS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
 > regards jeeper creepers xmd ®\n\n`;
@@ -107,7 +107,7 @@ ezra({ nomCom: "tagall", categorie: 'jeepers-Group', reaction: "📯" }, async (
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
-        🌟 *JEEPERS CREEPER-XMD TAGS* 🌟
+        🌟 *BUGFIXED SULEXH-XMD TAGS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -149,7 +149,7 @@ ezra({ nomCom: "link", categorie: 'jeepers-Group', reaction: "🚜" }, async (de
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️ JEEPERS CREEPER-XMD ☢️`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️ BUGFIXED SULEXH-XMD ☢️`
   repondre(mess)
 
 
@@ -158,7 +158,7 @@ Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️ JEEPERS C
 
 // COMMAND TO PROMOTE ADM
 /** *nommer un membre comme admin */
-ezra({ nomCom: "promote", categorie: 'jeepers-Group', reaction: "💐" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "promote", categorie: 'bugfixed-Group', reaction: "💐" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -327,7 +327,7 @@ ezra({ nomCom: "remove", categorie: 'jeepers-Group', reaction: "😱" }, async (
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/mr-X-force/LUCKY-MD-XFORCE/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'JEEPERS CREEPER-XMD', // The pack name
+                pack: 'BUGFIXED SULEXH-XMD', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -417,7 +417,7 @@ ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpti
 
     let mess = {
       image: { url: ppgroup },
-      caption:  `☢️ JEEPERS CREEPER-XMD ☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
+      caption:  `☢️ BUGFIXED SULEXH-XMD ☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
     }
 
 
@@ -427,7 +427,7 @@ ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpti
 
 
  // COMMAND TO ACTVATE ANTILINK GROUP
- ezra({ nomCom: "antilink", categorie: 'jeepers creeper-xmd-Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+ ezra({ nomCom: "antilink", categorie: 'bugfixed sulexh-xmd-Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -671,7 +671,7 @@ ezra({ nomCom: "gpp", categorie: 'jeepers creeper-xmd-Group' }, async (dest, zk,
 });
 
 // COMMAND TO TAG ALL MEMBERS
-ezra({nomCom:"tag",categorie:'jeepers creeper-xmd-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"tag",categorie:'bugfixed sulexh-xmd-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 
@@ -736,7 +736,7 @@ ezra({nomCom:"tag",categorie:'jeepers creeper-xmd-Group',reaction:"🎤"},async(
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER-XMD',
+          pack: 'BUGFIXED SULEXH-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -779,7 +779,7 @@ ezra({nomCom:"tag",categorie:'jeepers creeper-xmd-Group',reaction:"🎤"},async(
 
 
 // COMMAND TO TAG ALL MEMBERS
-ezra({nomCom:"hidetag",categorie:'jeepers creper-xmd-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"hidetag",categorie:'bugfixed sulexh-xmd-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 
@@ -844,7 +844,7 @@ ezra({nomCom:"hidetag",categorie:'jeepers creper-xmd-Group',reaction:"🎤"},asy
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'jeepers creeper-xmd',
+          pack: 'bugfixed sulexh-xmd',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -887,7 +887,7 @@ ezra({nomCom:"hidetag",categorie:'jeepers creper-xmd-Group',reaction:"🎤"},asy
 
 
 // COMMAND TO TAG ALL MEMBERS
-ezra({nomCom:"htag",categorie:'jeepers creeper-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"htag",categorie:'bugfixed sulexh-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 
@@ -952,7 +952,7 @@ ezra({nomCom:"htag",categorie:'jeepers creeper-Group',reaction:"🎤"},async(des
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER-XMD',
+          pack: 'BUGFIXED SULEXH-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -1073,7 +1073,7 @@ ezra({
 
   ezra({
     nomCom : 'autounmute',
-    categorie : 'jeepers creeper-Group'
+    categorie : 'bugfixed sulexh-Group'
 } , async (dest,zk,commandeOptions) => {
 
     const {arg , repondre , verifAdmin } = commandeOptions ;
@@ -1150,7 +1150,7 @@ ezra({
 // COMMAND TO KICK
 ezra({
   nomCom : 'fkick',
-  categorie : 'jeepers-Group'
+  categorie : 'bugfixed-Group'
 } , async (dest,zk,commandeOptions) => {
 
   const {arg , repondre , verifAdmin , superUser , verifezraAdmin } = commandeOptions ;
@@ -1184,7 +1184,7 @@ ezra({
 // COMMAND TO NSFW
 ezra({
       nomCom : 'nsfw',
-      categorie : 'jeepers-Group'
+      categorie : 'bugfixed-Group'
 }, async (dest,zk,commandeOptions) => {
   
     const {arg , repondre , verifAdmin } = commandeOptions ;
