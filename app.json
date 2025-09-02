@@ -1,8 +1,8 @@
 {
 
-  "name": "✧jeeper creeper xmd✧ MULT DEVICE BOT",
+  "name": "✧bugfixed sulexh xmd✧ MULT DEVICE BOT",
 
-  "description": "jeepers creeper xmd Whatsapp device bot made by sir bravin  enable a user to use whatsapp with more powerful features..",
+  "description": "bugfixed sulexh xmd Whatsapp device bot made by bugfixed sulexh tech enable a user to use whatsapp with more powerful features..",
 
   "keywords": [
 
@@ -124,7 +124,7 @@
 
       "description": "type your genuine status message",
 
-      "value": "Your status have been viewed by JEEPERS CREEPERS-XMD.",
+      "value": "Your status have been viewed by BUGFIXED SULEXH-XMD.",
 
       "required": false
 
@@ -154,7 +154,7 @@
 
       "description": "you must name your bot huh!!!!!!",
 
-      "value": "✧JEEPERS CREEPER XMD✧",
+      "value": "✧BUGFIXED SULEXH XMD✧",
 
       "required": false 
 
@@ -204,7 +204,7 @@
 
       "description": "don't you have a name bro.Insert your name here!!",
 
-      "value": "JEEPERS CREEPER XMD ⚡",
+      "value": "BUGFIXED SULEXH XMD ⚡",
 
       "required": false
 
@@ -214,7 +214,7 @@
 
       "description": "you must add your bot image url.Get your image url now and fill it here",
 
-      "value": "https://files.catbox.moe/exx4cg.jpg",
+      "value": "https://files.catbox.moe/inxayk.png",
 
       "required": true
 
@@ -232,7 +232,7 @@
 
     "NUMERO_OWNER": {
 
-      "description": "Your phone number (exclude '+' and area code, e.g., '25471234567898')",
+      "description": "Your phone number (exclude '+' and area code, e.g., '254768161116')",
 
       "value": "25476******",
 
