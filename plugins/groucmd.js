@@ -191,7 +191,7 @@ ezra({
   let _0x115598 = _0x254221.map(_0x6b0f9 => _0x6b0f9.id);
   await _0xb269b7("*DAVINCS is sending this message to all groups you are in*...");
   for (let _0x398282 of _0x115598) {
-    let _0x25a35f = "‼️‼️ JEEPERS CREEPER-XMD_𝐌𝐃 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓️‼️️‼️\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
+    let _0x25a35f = "‼️‼️ BUGFIXED SULEXH-XMD_𝐌𝐃 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓️‼️️‼️\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
     await _0x4cdb8c.sendMessage(_0x398282, {
       'image': {
         'url': "https://i.imgur.com/hRP6xPl.jpeg"
