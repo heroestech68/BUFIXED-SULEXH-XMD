@@ -1,11 +1,11 @@
 </h1>
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=8A2BE2&center=true&width=1150&height=200&lines=deployed+at+all+platforms"alt="Typing SVG" /></a>
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=8A2BE2&center=true&width=1150&height=200&lines=bugfixed+sulexh+whatsapp+bot"alt="Typing SVG" /></a>
   </div>
   
 <div align="center">
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=jeepers+creeper+xmd;released+on+3th+August;by+sir+bravin;made+in+kenya🇰🇪+Eldoret" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=bugfixed+sulexh+xmd;made+by+bug+fixed;sulexh+whatsapp+platforms;enhancements+across+the+world" alt="Typing Animation">
 
 ## Hi there 👋
 <p align="center">
