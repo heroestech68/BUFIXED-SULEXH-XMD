@@ -5,7 +5,7 @@
 <div align="center">
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=bugfixed+sulexh+xmd;made+by+bug+fixed;sulexh+whatsapp+platforms;enhancements+across+the+world" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=bugfixed+sulexh+xmd;made+by+bug+fixed;sulexh+for+whatsapp+platforms;enhancements+across+the+world" alt="Typing Animation">
 
 ## Hi there 👋
 <p align="center">
@@ -17,12 +17,12 @@
 <div align="center">
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🌹🌹🌹sir+bravin:jeepers+creeper+xmd+bot❣️❣️❣️" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🌹🌹🌹 welcome+all:bugfixed+sulexh+xmd+bot❣️❣️❣️" alt="Typing Animation">
 
 </h1>
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=8A2BE2&center=true&width=1150&height=200&lines=pair+site" alt="Typing SVG" /></a>
   </div>
-<td><a href="https://jeepers-creepers-xmd-session-link-1.onrender.com" target="_blank"><img src="https://img.shields.io/badge/jeepescreepersession-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
+<td><a href="https://jeepers-creepers-xmd-session-link-1.onrender.com" target="_blank"><img src="https://img.shields.io/badge/bugfixedsulexhxmd-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
     </tr>
 
  ### 📤 Deployment Options
@@ -38,7 +38,7 @@
 </a>
 
 
-description of sir bravin
+description of bugfixed
   +respect all guyz
   +give respect to all guyz 
   +answers all people text
@@ -53,7 +53,7 @@ description of sir bravin
 # 🪀  SUPPORT CHANNEL
 
 <div align="center">
-  <a href="https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o">
+  <a href="https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
   </a>
 </div>
@@ -62,9 +62,9 @@ description of sir bravin
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ##
-- *jeeper creeper xmd is not made by WhatsApp Inc. Sometimes or misusing the bot might ban your WhatsApp account!*
+- *bugfixed sulexh xmd is not made by WhatsApp Inc. Sometimes or misusing the bot might ban your WhatsApp account!*
 - *In that case, I'm not responsible for banning your account.*
-- *sir bravin have no any access with whatapp official so if you account gets ban i will be you yourself  led to your account ban.*
+- *bugfixed sulexh tech have no any access with whatapp official so if you account gets ban i will be you yourself  led to your account ban.*
   
   #### `TOTAL PROFILE VIEWS 🧚```                     
    
