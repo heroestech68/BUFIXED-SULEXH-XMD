@@ -1,10 +1,10 @@
 {
-  "bot-name": "JEEPERS CREEPER XMD MULT DEVICE",
-  "description": "JEEPERS CREEPER-XMD Whatsapp device bot made by toxic lover to help Whatsapp users to enjoy while helping...",
+  "bot-name": "BUGFIXED SULEXH XMD MULT DEVICE",
+  "description": "BUGFIXED SULEXH-XMD Whatsapp device bot made by toxic lover to help Whatsapp users to enjoy while helping...",
   "logo": "https://files.catbox.moe/uw4l17.jpeg",
-  "keywords": ["toxic lover", "Jeepers creeper-xmd", "xmdtech"],
+  "keywords": ["toxic lover", "bugfixed sulexh-xmd", "xmdtech"],
   "documentation-link": "https://jeepers-creepers-xmd-session-link-1.onrender.com/",
-  "owner-verification":"toxic lover",
+  "owner-verification":"bugfixed sulexh",
   "env": {
     "PREFIX":
     {
@@ -71,7 +71,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "JEEPERS CREEPER-XMD",
+      "value": "BUGFIXED SULEXH-XMD",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -111,7 +111,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '254717263689')",
-      "value": "254717263689",
+      "value": "254768161116",
       "required": false
     },
     "WARN_COUNT": {
