@@ -13,7 +13,7 @@ ezra({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions) 
       fetch('https://animechan.xyz/api/random')
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`*JEEPERS CREEPER-XMD-MdQuotes*
+          repondre(`*BUGFIXED SULEXH-XMD-MdQuotes*
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
@@ -31,13 +31,13 @@ Powered by *frediezra*`);
       fetch('https://animechan.xyz/api/random/character?name=' + query)
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`JEEPERS CREEPER
+          repondre(`BUGFIXED SULEXH
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *JEEPERS CREEPER-XMD*`);
+Powered by *BUGFIXED SULEXH-XMD*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
