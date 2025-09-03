@@ -151,12 +151,12 @@ module.exports = [
         if (item.type === 'image') {
           await king.sendMessage(fromJid, {
             image: { url: item.url },
-            caption: `📸 _✨ Downloaded by JEEPERS CREEPER-XMD_`
+            caption: `📸 _✨ Downloaded by BUFIXED-SULEXH-XMD_`
           }, { quoted: msg });
         } else if (item.type === 'video') {
           await king.sendMessage(fromJid, {
             video: { url: item.url },
-            caption: `🎥 _✨ Downloaded by JEEPERS CREEPER-XMD_`
+            caption: `🎥 _✨ Downloaded by BUFIXED-SULEXH-XMD_`
           }, { quoted: msg });
         }
       }
@@ -224,7 +224,7 @@ _Use this info to explore or install the package via terminal_`;
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363366284524544@newsletter',
-                            newsletterName: 'sir bravin',
+                            newsletterName: 'bugfixed sulexh',
                             serverMessageId: -1
                         }
                     }
@@ -261,7 +261,7 @@ _Use this info to explore or install the package via terminal_`;
       if (data.status && data.BK9 && data.BK9.high) {
         await sock.sendMessage(chatId, {
           video: { url2: data.BK9.high },
-          caption: "🎥 *JEEPERS CREEPER-XMD* Video Downloader (High Quality)",
+          caption: "🎥 *BUFIXED-SULEXH-XMD* Video Downloader (High Quality)",
           contextInfo: {
             forwardingScore: 1,
             isForwarded: true,
@@ -384,7 +384,7 @@ _Use this info to explore or install the package via terminal_`;
         }, { quoted: msg });
       }
 
-      const caption = `*🔞 THE JEEPERS CREEPER-XMD X-Video Downloader 🥵*\n\n` +
+      const caption = `*🔞 THE BUFIXED-SULEXH-XMD X-Video Downloader 🥵*\n\n` +
                       `• *Title:* ${videoData.title}\n` +
                       `• *Duration:* ${videoData.duration}s\n` +
                       `• *Info:* ${videoData.info}\n` +
@@ -398,7 +398,7 @@ _Use this info to explore or install the package via terminal_`;
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363366284524544@newsletter',
-            newsletterName: 'sir bravin',
+            newsletterName: 'bugfixed sulexh',
             serverMessageId: -1
           }
         }
@@ -563,7 +563,7 @@ _Use this info to explore or install the package via terminal_`;
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363366284524544@newsletter',
-        newsletterName: 'sir bravin',
+        newsletterName: 'bugfixed sulexh',
         serverMessageId: -1
       }
     };
@@ -587,7 +587,7 @@ _Use this info to explore or install the package via terminal_`;
 
           await sock.sendMessage(chatId, {
             video: { url: result.hd },
-            caption: "_╰►FB VIDEO DOWNLOADED BY_ *JEEPERS CREEPER-XMD*",
+            caption: "_╰►FB VIDEO DOWNLOADED BY_ *BUFIXED-SULEXH-XMD*",
             contextInfo
           }, { quoted: msg });
         })
@@ -619,7 +619,7 @@ _Use this info to explore or install the package via terminal_`;
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363366284524544@newsletter',
-        newsletterName: 'sir bravin',
+        newsletterName: 'bugfixed sulexh',
         serverMessageId: -1
       }
     };
@@ -643,7 +643,7 @@ _Use this info to explore or install the package via terminal_`;
 
           await sock.sendMessage(chatId, {
             video: { url: result.sd },
-            caption: "_╰►FACEBOOK VIDEO DOWNLOADED BY_ *JEEPERS CREEPER-XMD*",
+            caption: "_╰►FACEBOOK VIDEO DOWNLOADED BY_ *BUFIXED-SULEXH-XMD*",
             contextInfo
           }, { quoted: msg });
         })
@@ -675,7 +675,7 @@ _Use this info to explore or install the package via terminal_`;
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363366284524544@newsletter',
-        newsletterName: 'sir bravin',
+        newsletterName: 'bugfixed sulexh',
         serverMessageId: -1
       }
     };
@@ -703,7 +703,7 @@ _Use this info to explore or install the package via terminal_`;
           `Discovered By: ${result.discovered_by}`;
 
         await sock.sendMessage(chatId, {
-          text: "A moment, JEEPERS CREEPER-XMD is sending your results"
+          text: "A moment, BUFIXED-SULEXH-XMD is sending your results"
         }, { quoted: msg });
 
         if (result.image) {
@@ -745,7 +745,7 @@ _Use this info to explore or install the package via terminal_`;
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363366284524544@newsletter',
-        newsletterName: 'sir bravin',
+        newsletterName: 'bugfixed sulexh',
         serverMessageId: -1
       }
     };
@@ -776,7 +776,7 @@ _Use this info to explore or install the package via terminal_`;
       }
 
       await sock.sendMessage(chatId, {
-        text: "sir bravin is sending you 5 BLACKPINK IMAGES"
+        text: "bugfixed sulexh is sending you 5 BLACKPINK IMAGES"
       }, { quoted: msg });
 
       for (const imageUrl of selectedImages) {

@@ -25,7 +25,7 @@ tagCommands.forEach(({
 }) => {
   ezra({
     'nomCom': _0x4b759c,
-    'categorie': "sir bravin-Group",
+    'categorie': "bugfixed sulexh-Group",
     'reaction': '📯'
   }, async (_0xee4deb, _0x33ee23, _0x560988) => {
     const {

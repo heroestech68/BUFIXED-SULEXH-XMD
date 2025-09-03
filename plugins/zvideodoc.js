@@ -74,7 +74,7 @@ ezra({
           title: videoDetails.title,
           body: videoDetails.title,
           mediaType: 1,
-          sourceUrl: 'https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g',
+          sourceUrl: 'https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16',
           thumbnailUrl: firstVideo.thumbnail,
           renderLargerThumbnail: false,
           showAdAttribution: true,

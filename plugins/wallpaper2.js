@@ -16,7 +16,7 @@ ezra({
     'image': {
       'url': "https://files.catbox.moe/tq1dtv.jpg"
     },
-    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚘Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (JEEPERS CREEPERS-XMD)🚗MADE BY JEEPERS CREEPER-XMD 𝗧𝗘𝗖𝗛"
+    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚘Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (JEEPERS CREEPERS-XMD)🚗MADE BY BUFIXED-SULEXH-XMD 𝗧𝗘𝗖𝗛"
   });
 });
 console.log("mon test");

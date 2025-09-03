@@ -17,7 +17,7 @@ function getDescriptionFromEnv(varName) {
 // Anti-call function setup
 ezra({
   nomCom: 'anticall',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -59,7 +59,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreact',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -100,7 +100,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreadstatus',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -140,7 +140,7 @@ ezra({
 });
 ezra({
   nomCom: 'antidelete',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -181,7 +181,7 @@ ezra({
 
 ezra({
   nomCom: 'autodownloadstatus',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -263,7 +263,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreadmessage',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -304,7 +304,7 @@ ezra({
 
 ezra({
   nomCom: 'pm-permit',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -344,7 +344,7 @@ ezra({
 });
 ezra({
   nomCom: 'autosavecontact',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -384,7 +384,7 @@ ezra({
 });
 ezra({
   nomCom: 'autoreply',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -425,7 +425,7 @@ ezra({
 
 ezra({
   nomCom: 'autobio',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -466,7 +466,7 @@ ezra({
 
 ezra({
   nomCom: 'publicmode',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -548,7 +548,7 @@ ezra({
 
 ezra({
   nomCom: 'autotyping',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -589,7 +589,7 @@ ezra({
 
 ezra({
   nomCom: 'alwaysonline',
-  categorie: "JEEPERS CREEPER-XMD-SETTING"
+  categorie: "BUFIXED-SULEXH-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 

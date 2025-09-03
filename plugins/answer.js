@@ -6,7 +6,7 @@ const { default: axios } = require('axios');
 
 
 
-ezra({nomCom:"bravo",reaction:"🤷",categorie:"sir bravin-IA"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"bravo",reaction:"🤷",categorie:"bugfixed sulexh-IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
@@ -45,7 +45,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
 
 
 
-  ezra({ nomCom: "bing4", reaction: "🌀", categorie: "sir bravin-IA" }, async (dest, zk, commandeOptions) => {
+  ezra({ nomCom: "bing4", reaction: "🌀", categorie: "bugfixed sulexh-IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -73,7 +73,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
     }
   });
   
-  ezra({ nomCom: "ai2", reaction: "🌀", categorie: "sir bravin-IA" }, async (dest, zk, commandeOptions) => {
+  ezra({ nomCom: "ai2", reaction: "🌀", categorie: "bugfixed sulexh-IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -98,7 +98,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   });
 
 
-ezra({ nomCom: "gpt-all", reaction: "🌀", categorie: "sir bravin-IA" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "gpt-all", reaction: "🌀", categorie: "bugfixed sulexh-IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {

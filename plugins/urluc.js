@@ -88,13 +88,13 @@ ezra({ nomCom: "url", categorie: "General", reaction: "👨🏿‍💻" }, async
         // Respond with the URL based on media type
         switch (mediaType) {
             case 'image':
-                repondre(`JEEPERS CREEPER-XMD url: ${catboxUrl}`);
+                repondre(`BUFIXED-SULEXH-XMD url: ${catboxUrl}`);
                 break;
             case 'video':
-                repondre(`JEEPERS CREEPER-XMD url: ${catboxUrl}`);
+                repondre(`BUFIXED-SULEXH-XMD url: ${catboxUrl}`);
                 break;
             case 'audio':
-                repondre(`JEEPERS CREEPER-XMD url: ${catboxUrl}`);
+                repondre(`BUFIXED-SULEXH-XMD url: ${catboxUrl}`);
                 break;
             default:
                 repondre('An unknown error occurred.');

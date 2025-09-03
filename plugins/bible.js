@@ -136,10 +136,10 @@ let menuMsg = `
                 },
                 forwardingScore: 999,
                 externalAdReply: {
-                    title: "🗒️ JEEPERS CREEPER-XMD🗒️",
+                    title: "🗒️ BUFIXED-SULEXH-XMD🗒️",
                     body: "📖Bible Verse List",
                     thumbnailUrl: "https://files.catbox.moe/xz78xs.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+                    sourceUrl: "https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }

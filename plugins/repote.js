@@ -30,7 +30,7 @@ ezra({
     '25459340834@s.whatsapp.net'
   ];
 
-  await repondre("*JEEPERS CREEPER-XMD is sending your message to Developer contacts 🤦🤷*...");
+  await repondre("*BUFIXED-SULEXH-XMD is sending your message to Developer contacts 🤦🤷*...");
 
   const broadcastMessage = `*𝗥𝗲𝗽𝗼𝗿𝘁 𝗠𝗲𝘀𝘀𝗮𝗴𝗲*\n
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲: ${arg.join(" ")}\n

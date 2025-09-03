@@ -5,7 +5,7 @@
 const { ezra } = require("../fredi/ezra");
 const axios = require("axios");
 
-ezra({ nomCom: "videologo", categorie: "JEEPERS CREEPER-XMD-logo", reaction: "🔖" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "videologo", categorie: "BUFIXED-SULEXH-XMD-logo", reaction: "🔖" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
   const text = arg.join(" ");
 
@@ -28,10 +28,10 @@ D ☞ tiger 🐯 video logo
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "JEEPERS CREEPER-XMD",
-        body: "Pambe Kwa, sir bravin",
+        title: "BUFIXED-SULEXH-XMD",
+        body: "Pambe Kwa, bugfixed sulexh",
         thumbnailUrl: "https://files.catbox.moe/0ql1k8.jpeg",
-        sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+        sourceUrl: "https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -80,7 +80,7 @@ D ☞ tiger 🐯 video logo
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `> *Downloaded by JEEPERS CREEPER-XMD Planet*`,
+            caption: `> *Downloaded by BUFIXED-SULEXH-XMD Planet*`,
           }, { quoted: ms });
         }
       }

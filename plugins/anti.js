@@ -164,5 +164,5 @@ ezra({
   }
   _0x3b3db9.ANTI_SHARE_GROUP = _0x387fc4;
   fs.writeFileSync("./fredie/anti.json", JSON.stringify(_0x3b3db9, null, 2));
-  _0x5935f0("✅ JEEPERS CREEPER-XMD ANTI_SHARE_GROUP is now: *" + _0x387fc4.toUpperCase() + '*');
+  _0x5935f0("✅ BUFIXED-SULEXH-XMD ANTI_SHARE_GROUP is now: *" + _0x387fc4.toUpperCase() + '*');
 });

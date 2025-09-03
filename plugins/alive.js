@@ -74,7 +74,7 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("Hello Fahm JEEPERS CREEPER-XMD Is A Live 24hrs Enjoy To Use All Time🤗") ; return};
+        if(!superUser) { repondre("Hello Fahm BUFIXED-SULEXH-XMD Is A Live 24hrs Enjoy To Use All Time🤗") ; return};
 
       await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
          repondre("don't do fake thinks :)")

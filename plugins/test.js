@@ -7,9 +7,9 @@ ezra(
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
         let z =
-            "Hello I'm *✧JEEPERS CREEPER-XMD✧* \n\n " +
+            "Hello I'm *✧BUFIXED-SULEXH-XMD✧* \n\n " +
             "I'm a powerful Whatsapp Bot supporting you";
-        let d = " Made By *sir bravine*";
+        let d = " Made By *bugfixed sulexhe*";
         let varmess = z + d;
         var img = "https://files.catbox.moe/adeedv.mp4";
         await zk.sendMessage(dest, { image: { url: img }, caption: varmess });

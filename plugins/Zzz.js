@@ -175,7 +175,7 @@ ezra({
 });
 ezra({
   'nomCom': 'jid2',
-  'categorie': "sir bravin-Mods"
+  'categorie': "bugfixed sulexh-Mods"
 }, async (_0x2d9f10, _0x3242fc, _0x3d486d) => {
   const {
     arg: _0x35b5b2,

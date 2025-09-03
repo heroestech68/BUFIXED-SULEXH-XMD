@@ -427,7 +427,7 @@ ezra({ nomCom: "info", categorie: 'sir bravo-Group' }, async (dest, zk, commande
 
 
  // COMMAND TO ACTVATE ANTILINK GROUP
- ezra({ nomCom: "antilink", categorie: 'sir bravin-Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+ ezra({ nomCom: "antilink", categorie: 'bugfixed sulexh-Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -779,7 +779,7 @@ ezra({nomCom:"tag",categorie:'sir bravo-Group',reaction:"🎤"},async(dest,zk,co
 
 
 // COMMAND TO TAG ALL MEMBERS
-ezra({nomCom:"hidetag",categorie:'sir bravin-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"hidetag",categorie:'bugfixed sulexh-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 

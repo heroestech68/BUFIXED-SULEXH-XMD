@@ -64,7 +64,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -105,7 +105,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -186,7 +186,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -227,7 +227,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or sir bravin owner.* 🤦,,bois");
+    return repondre("*This command is restricted to the bot owner or bugfixed sulexh owner.* 🤦,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -268,7 +268,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -309,7 +309,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -349,7 +349,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -389,7 +389,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -430,7 +430,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD TGowner.* 🤦,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD TGowner.* 🤦,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -471,7 +471,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -512,7 +512,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -553,7 +553,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD.* 🗿,,bois");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD.* 🗿,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -594,7 +594,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly

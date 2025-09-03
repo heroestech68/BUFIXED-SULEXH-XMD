@@ -34,10 +34,10 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-━━━━❍ *JEEPERS CREEPER-XMD TECH INFO* ❍━━━━
+━━━━❍ *BUFIXED-SULEXH-XMD TECH INFO* ❍━━━━
 ╭──━━━━━━━━━━━━━━━━━━━❍ 
 │
-│  _*Support channel by follow*_ ;https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g. https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o
+│  _*Support channel by follow*_ ;https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16. https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o
 │  _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/EQdgnmlMEuhGR9jF9nTpnE
 │  _*WhatsApp Contact As*_ ;https://wa.link/3rc9x7
 │  _*WhatsApp Bot Fork And Star*_ ;https://api.github.com/toxiclover-tech/TOXIC-LOVER-MD
@@ -86,10 +86,10 @@ let menuMsg = `
 ┃⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⢁⣴⣿⣿⣿⠗⠄⠄⣿
 ┃⠈⠻⣿⣿⣿⣿⣿⣿⠿⠛⣉⣤⣾⣿⣿⣿⣿⣇⠠⠺⣷⣿
 ┃⣦⣄⣈⣉⣉⣉⣡⣤⣶⣿⣿⣿⣿⣿⣿⣿⠉⠁⣀⣼⣿⣿
-│        *JEEPERS CREEPER-XMD*
+│        *BUFIXED-SULEXH-XMD*
 ╰─━━━━✣•∞•✣━━━━──❍ 
 
-> © JEEPERS CREEPER-XMD projects
+> © BUFIXED-SULEXH-XMD projects
 
  `;
 
@@ -97,7 +97,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JEEPERS CREEPER-XMD*, déveloper toxic lover Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *BUFIXED-SULEXH-XMD*, déveloper toxic lover Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);

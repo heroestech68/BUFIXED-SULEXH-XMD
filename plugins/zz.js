@@ -90,15 +90,15 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
 ┊ *Made:* in KENYA/ ELDORET 
 ┊ *Quality:* High
 ┊ *Powered:* by JEEPERS CREEPER TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
 
-> regards sir bravin `,
+> regards bugfixed sulexh `,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -114,15 +114,15 @@ ezra({
         },
       },
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
 ┊ *Made:* in KENYA/ELDORET 
 ┊ *Quality:* High
 ┊ *Powered:* by JEEPERS CREEPER TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
 
-> regards sir bravin `,
+> regards bugfixed sulexh `,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
@@ -138,14 +138,14 @@ ezra({
         },
       },
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
 ┊ *Made:* in KENYA/ELDORET 
 ┊ *Quality:* High
 ┊ *Powered:* by jeepers creepers tech
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
-> regards sir bravin `,
+🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
+> regards bugfixed sulexh `,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -238,15 +238,15 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
 ┊ *Made:* in KENYA/ELDORET 
 ┊ *Quality:* High
 ┊ *Powered:* by JEEPERS CREEPER TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
 
-> regards sir bravin `,
+> regards bugfixed sulexh `,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
@@ -262,15 +262,15 @@ ezra({
         },
       },
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
 ┊ *Made:* in KENYA/ELDORET 
 ┊ *Quality:* High
 ┊ *Powered:* by JEEPERS CREEPER TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
 
-> regards sir bravin `,
+> regards bugfixed sulexh `,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {

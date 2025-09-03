@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: jeepers-creeper-xmd
+    name: bugfixed-sulexh-xmd
     env: node
     plan: free
     buildCommand: npm install

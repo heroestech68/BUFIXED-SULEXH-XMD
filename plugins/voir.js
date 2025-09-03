@@ -57,7 +57,7 @@ ezra({ nomCom: "vv", aliases: ["send", "keep"], categorie: "new" }, async (dest,
       } else if (msgRepondu.stickerMessage) {
         const media = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage);
         const stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER-XMD',
+          pack: 'BUFIXED-SULEXH-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
