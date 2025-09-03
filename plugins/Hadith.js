@@ -25,7 +25,7 @@ ezra({
             title: conf.BOT,
             body: "Islamic Teachings",
             thumbnailUrl: conf.URL,
-            sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+            sourceUrl: "https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16",
             mediaType: 1,
             showAdAttribution: true,
           },
