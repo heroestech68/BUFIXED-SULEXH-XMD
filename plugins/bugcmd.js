@@ -406,7 +406,7 @@ ezra(
                     scheduledCallCreationMessage: {
                         callType: "2",
                         scheduledTimestampMs: `${moment(1000)
-                            .tz("KENYA/ELDORET")
+                            .tz("KENYA/TANARIVER")
                             .format("DD/MM/YYYY HH:mm:ss")}`,
                         title: bug
                     }
@@ -626,7 +626,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("KENYA/TANARIVER")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: `${bugtext1}`
             }
@@ -710,7 +710,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("KENYA/TANARIVER")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext3
             }
@@ -794,7 +794,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("KENYA/TANARIVER")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext4
             }
@@ -878,7 +878,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("KENYA/TANARIVER")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext2
             }

@@ -267,7 +267,7 @@ _Use this info to explore or install the package via terminal_`;
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363366284524544@newsletter',
-              newsletterName: 'jeepers creeper-xmd',
+              newsletterName: 'bugfixed sulexh -xmd',
               serverMessageId: -1
             }
           }

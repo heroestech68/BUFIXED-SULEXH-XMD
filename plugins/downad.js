@@ -78,7 +78,7 @@ async function downloadFromApis(apis) {
 ezra({
   nomCom: "play2",
   aliases: ["song", "playdoc", "audio", "mp3"],
-  categorie: "jeepers creeper xmd-Download",
+  categorie: "bugfixed sulexh xmd-Download",
   reaction: "🎵"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, userJid } = commandOptions;
@@ -136,7 +136,7 @@ ezra({
 ezra({
   nomCom: "video2",
   aliases: ["videodoc", "film", "mp4"],
-  categorie: "jeepers creeper-xmd-Download",
+  categorie: "bugfixed sulexh -xmd-Download",
   reaction: "🎥"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, userJid } = commandOptions;
@@ -193,7 +193,7 @@ ezra({
 // URL upload command
 ezra({
   nomCom: 'url-link',
-  categorie: "jeepers creeper-xmd-Download",
+  categorie: "bugfixed sulexh -xmd-Download",
   reaction: '👨🏿‍💻'
 }, async (dest, zk, commandOptions) => {
   const { msgRepondu, userJid, ms } = commandOptions;

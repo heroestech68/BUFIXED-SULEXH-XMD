@@ -91,7 +91,7 @@ ezra({
 
 ✿⁠ *_LANGUAGE:_* ${data.translation_name}
 ╭────────────────◆
-│ *_Powered by jeepers creeper-xmd${conf.OWNER_NAME}*
+│ *_Powered by bugfixed sulexh -xmd${conf.OWNER_NAME}*
 ╰─────────────────◆ `;
     
     await zk.sendMessage(dest, {

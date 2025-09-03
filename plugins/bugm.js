@@ -27,7 +27,7 @@ ezra({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions)
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault("KENYA/ELDORET");
+    moment.tz.setDefault("KENYA/TANARIVER");
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
@@ -88,7 +88,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *BUFIXED-SULEXH-XMD*, déveloper Toxic lover Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *BUFIXED-SULEXH-XMD*, déveloper bugfixed sulexh Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);

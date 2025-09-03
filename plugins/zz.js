@@ -116,7 +116,7 @@ ezra({
       {
       caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
 ┊ *Powered:* by JEEPERS CREEPER TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
@@ -140,9 +140,9 @@ ezra({
       {
       caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by jeepers creepers tech
+┊ *Powered:* by bugfixed sulexhs tech
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
 > regards bugfixed sulexh `,
@@ -240,7 +240,7 @@ ezra({
       {
       caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
 ┊ *Powered:* by JEEPERS CREEPER TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
@@ -264,7 +264,7 @@ ezra({
       {
       caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
 ┊ *Powered:* by JEEPERS CREEPER TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷

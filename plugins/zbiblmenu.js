@@ -27,7 +27,7 @@ ezra({ nomCom: "bible-list", categorie: "God-first" }, async (dest, zk, commande
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault("KENYA/ELDORET");
+    moment.tz.setDefault("KENYA/TANARIVER");
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');

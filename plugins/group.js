@@ -19,7 +19,7 @@ const s = require("../set")
 ezra(
     {
         nomCom : 'warn',
-        categorie : 'jeepers creeper xmd-Group'
+        categorie : 'bugfixed sulexh xmd-Group'
         
     },async (dest,zk,commandeOptions) => {
 
@@ -626,7 +626,7 @@ ezra({ nomCom: "gname", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpt
 }) ;
 
 // COMMAND TO EDIT GROUP DESK
-ezra({ nomCom: "gdesc", categorie: 'jeepers creeper-xmd-Group' }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "gdesc", categorie: 'bugfixed sulexh -xmd-Group' }, async (dest, zk, commandeOptions) => {
 
   const { arg, repondre, verifAdmin } = commandeOptions;
 
@@ -646,7 +646,7 @@ ezra({ nomCom: "gdesc", categorie: 'jeepers creeper-xmd-Group' }, async (dest, z
 }) ;
 
 // COMMAND TO GET GROUP PROFILE PHOTO
-ezra({ nomCom: "gpp", categorie: 'jeepers creeper-xmd-Group' }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "gpp", categorie: 'bugfixed sulexh -xmd-Group' }, async (dest, zk, commandeOptions) => {
 
   const { repondre, msgRepondu, verifAdmin } = commandeOptions;
 
@@ -1001,7 +1001,7 @@ const cron = require(`../luckydatabase/cron`) ;
 
 ezra({
       nomCom : 'automute',
-      categorie : 'jeepers creeper-Group'
+      categorie : 'bugfixed sulexh-Group'
   } , async (dest,zk,commandeOptions) => {
 
       const {arg , repondre , verifAdmin } = commandeOptions ;

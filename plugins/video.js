@@ -31,7 +31,7 @@ ezra({ nomCom: "videologo", categorie: "General", reaction: "🔖" }, async (des
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363404784570099@newsletter',
-         newsletterName: "@jeepers creeper-xmd",
+         newsletterName: "@bugfixed sulexh -xmd",
          serverMessageId: 143,
       },
     };

@@ -51,12 +51,12 @@ ezra({ nomCom: "owner", categorie: "BUFIXED-SULEXH-XMD-devs", reaction: "🚜" }
   }
 });
 
-ezra({ nomCom: "dev", categorie: "jeepers creepers tech-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "dev", categorie: "bugfixed sulexhs tech-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Toxic lover", numero: "254724908267" },
-      { nom: "jeepers creeper-xmd tech", numero: "254717263689" },
+      { nom: "bugfixed sulexh", numero: "254724908267" },
+      { nom: "bugfixed sulexh -xmd tech", numero: "264768161116" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
@@ -91,7 +91,7 @@ else {
 }
 });
 
-ezra({ nomCom: "support", categorie: "jeepers creeper-xmd-devs" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "support", categorie: "bugfixed sulexh -xmd-devs" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
@@ -103,8 +103,8 @@ ezra({ nomCom: "developer", categorie: "General", reaction: "🚜" }, async (des
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Toxic lover", numero: "254724908267" },
-      { nom: "jeeper creeper-xmd tech", numero: "254717263689" },
+      { nom: "bugfixed sulexh", numero: "254724908267" },
+      { nom: "bugfixed sulexh -xmd tech", numero: "264768161116" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 

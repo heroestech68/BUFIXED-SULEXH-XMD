@@ -149,7 +149,7 @@ ezra({ nomCom: "link", categorie: 'sir bravo-Group', reaction: "🚜" }, async (
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️jeepers creeper xmd ☢️`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️bugfixed sulexh xmd ☢️`
   repondre(mess)
 
 
@@ -327,7 +327,7 @@ ezra({ nomCom: "remove", categorie: 'sir bravo-Group', reaction: "😱" }, async
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/mr-X-force/LUCKY-MD-XFORCE/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'jeepers creeper xmd', // The pack name
+                pack: 'bugfixed sulexh xmd', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -417,7 +417,7 @@ ezra({ nomCom: "info", categorie: 'sir bravo-Group' }, async (dest, zk, commande
 
     let mess = {
       image: { url: ppgroup },
-      caption:  `☢️ jeepers creeper xmd ☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
+      caption:  `☢️ bugfixed sulexh xmd ☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
     }
 
 

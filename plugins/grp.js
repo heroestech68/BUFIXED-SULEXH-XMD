@@ -26,7 +26,7 @@ ezra({
   const _0x2836e3 = await _0x8d12f2.groupFetchAllParticipating();
   const _0x3696fa = Object.values(_0x2836e3).map(_0x21d6d1 => _0x21d6d1.id);
   await _0x42a6f1("*💦 JEEPERS CREEPER XMD 💨 is sending your message to all groups ,,,💦*...");
-  const _0x309782 = "*🌟 jeepers creeper xmd BROADCAST🌟*\n\n🀄 Message: " + _0x36d7a5.join(" ") + "\n\n🗣️ Author: " + _0x4ccff3;
+  const _0x309782 = "*🌟 bugfixed sulexh xmd BROADCAST🌟*\n\n🀄 Message: " + _0x36d7a5.join(" ") + "\n\n🗣️ Author: " + _0x4ccff3;
   for (let _0x2e94c7 of _0x3696fa) {
     await _0x8d12f2.sendMessage(_0x2e94c7, {
       'image': {
