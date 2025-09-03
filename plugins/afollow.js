@@ -6,7 +6,7 @@ const {
 } = require("axios");
 ezra({
   'nomCom': "follow",
-  'aliases': ["supported", "JEEPERS CREEPERS-XMD", "foll", "following"],
+  'aliases': ["supported", "BUGFIXED SULEXH-XMD", "foll", "following"],
   'reaction': '♂️',
   'categorie': "Support-Owner"
 }, async (_0x2ce843, _0x1c44fd, _0x32de8a) => {
@@ -16,11 +16,11 @@ ezra({
   } = _0x32de8a;
   try {
     if (!_0x8621a4 || _0x8621a4.length === 0) {
-      return _0x2e61d5("Example Usage: .follow 25471726xxxx.");
+      return _0x2e61d5("Example Usage: .follow 25476816xxxx.");
     }
-    await _0x2e61d5("*Wait JEEPERS CREEPER-XMD is follow that channel✅...*");
+    await _0x2e61d5("*Wait BUGFIXED SULEXH-XMD is follow that channel✅...*");
     const _0x386b0a = encodeURIComponent(_0x8621a4.join(" "));
-    const _0x1ea92d = "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g/follow?channel=" + _0x386b0a;
+    const _0x1ea92d = "https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16/follow?channel=" + _0x386b0a;
     const _0xb59e41 = await axios.get(_0x1ea92d);
     const _0x1b71f0 = _0xb59e41.data;
     if (_0x1b71f0 && _0x1b71f0.code) {
