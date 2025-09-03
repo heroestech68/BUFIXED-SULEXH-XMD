@@ -34,7 +34,7 @@ const sleep = _0x45325b => {
 };
 ezra({
   'nomCom': "tgs2",
-  'categorie': "sir bravin-Mods"
+  'categorie': "✧buhfixed sulexh-Mods"
 }, async (_0x143e7d, _0x3b0370, _0x15f653) => {
   const {
     ms: _0x176950,
@@ -73,7 +73,7 @@ ezra({
       });
       const _0x4ce219 = new Sticker(_0x5c7f74.data, {
         'pack': _0x205017,
-        'author': "jeeper creeper xmd",
+        'author': "bugfixed sulexh xmd",
         'type': StickerTypes.FULL,
         'categories': ['🤩', '🎉'],
         'id': "12345",
@@ -93,7 +93,7 @@ ezra({
 });
 ezra({
   'nomCom': "crew2",
-  'categorie': "sir bravin-Mods"
+  'categorie': "bugfixed sulexh-Mods"
 }, async (_0x523338, _0x79a81f, _0x2fc80d) => {
   const {
     ms: _0x1edcff,
@@ -127,7 +127,7 @@ ezra({
 });
 ezra({
   'nomCom': "left2",
-  'categorie': "sir bravin-Mods"
+  'categorie': "bugfixed sulexh-Mods"
 }, async (_0x3b801f, _0x142d76, _0x158330) => {
   const {
     ms: _0x128260,
@@ -151,7 +151,7 @@ ezra({
 });
 ezra({
   'nomCom': "join2",
-  'categorie': "sir bravin-Mods'
+  'categorie': "bugfixed sulexh-Mods'
 }, async (_0x2129bf, _0x35835f, _0x26ca83) => {
   const {
     arg: _0xff8f27,
@@ -206,7 +206,7 @@ ezra({
 });
 ezra({
   'nomCom': 'block2',
-  'categorie': "sir bravin-Mods"
+  'categorie': "bugfixed sulexh-Mods"
 }, async (_0x30b838, _0x57030f, _0x2385fc) => {
   const {
     arg: _0x4b1af6,
@@ -239,7 +239,7 @@ ezra({
 });
 ezra({
   'nomCom': 'unblock2',
-  'categorie': 'sir bravin-Mods'
+  'categorie': 'bugfixed sulexh-Mods'
 }, async (_0x5c3e8b, _0x210a85, _0x2b6be9) => {
   const {
     arg: _0x376202,
@@ -272,7 +272,7 @@ ezra({
 });
 ezra({
   'nomCom': "kickall2",
-  'categorie': "sir bravin-Group",
+  'categorie': "bugfixed sulexh-Group",
   'reaction': '📣'
 }, async (_0x131387, _0x4670bb, _0x30c8b3) => {
   const {
@@ -313,7 +313,7 @@ ezra({
 });
 ezra({
   'nomCom': "ban2",
-  'categorie': 'sir bravin-Mods'
+  'categorie': 'bugfixed sulexh-Mods'
 }, async (_0x558d14, _0x1a0634, _0xc4dc54) => {
   const {
     ms: _0x29afed,
@@ -363,7 +363,7 @@ ezra({
 });
 ezra({
   'nomCom': "bangroup2",
-  'categorie': "sir bravin-Mods"
+  'categorie': "bugfixed sulexh-Mods"
 }, async (_0x30affe, _0x12d503, _0x3384fa) => {
   const {
     ms: _0x1ba4dd,
@@ -414,7 +414,7 @@ ezra({
 });
 ezra({
   'nomCom': "onlyadmin2",
-  'categorie': "sir bravin-Group"
+  'categorie': "bugfixed sulexh-Group"
 }, async (_0x41aef8, _0xf33a12, _0x3a24c6) => {
   const {
     ms: _0x378990,
@@ -465,7 +465,7 @@ ezra({
 });
 ezra({
   'nomCom': "sudo",
-  'categorie': "sir bravin-Mods"
+  'categorie': "bugfixed sulexh-Mods"
 }, async (_0x237f3d, _0x268071, _0x2aa4d0) => {
   const {
     ms: _0x14b72a,
@@ -516,7 +516,7 @@ ezra({
 });
 ezra({
   'nomCom': "save",
-  'categorie': "sir bravin-Mods"
+  'categorie': "bugfixed sulexh-Mods"
 }, async (_0x3806d1, _0x5a361d, _0x2fd64e) => {
   const {
     repondre: _0x508a31,
@@ -558,7 +558,7 @@ ezra({
             if (_0x58280a.stickerMessage) {
               let _0x4ec3b2 = await _0x5a361d.downloadAndSaveMediaMessage(_0x58280a.stickerMessage);
               let _0x124dcd = new Sticker(_0x4ec3b2, {
-                'pack': "sir bravin",
+                'pack': "bugfixed sulexh",
                 'type': StickerTypes.CROPPED,
                 'categories': ['🤩', '🎉'],
                 'id': "12345",
@@ -587,7 +587,7 @@ ezra({
 });
 ezra({
   'nomCom': "mention",
-  'categorie': "sir bravin-Mods"
+  'categorie': "bugfixed sulexh-Mods"
 }, async (_0x3b61a9, _0x436851, _0x2a8502) => {
   const {
     ms: _0x4bbc39,
