@@ -61,7 +61,7 @@ ezra({ nomCom: "getallmembers", categorie: 'sir bravo-Group', reaction: "📣" }
   let mess = Array.isArray(arg) && arg.length ? arg.join(' ') : 'No message provided';
   let membresGroupe = verifGroupe && infosGroupe ? infosGroupe.participants || [] : [];
 
-  let tag = `☢️JEEPERS CREEPERS XMD ☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
+  let tag = `☢️BUGFIXED SULEXH-XMD ☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
         🌟 *GROUP MEMBERS GIDS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
 > regards frediezra®\n\n`;
@@ -107,7 +107,7 @@ ezra({ nomCom: "tagall", categorie: 'Fredi-Group', reaction: "📯" }, async (de
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
-        🌟 *JEEPERS CREEPER XMD TAGS* 🌟
+        🌟 *BUGFIXED SULEXH-XMD TAGS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -282,7 +282,7 @@ ezra({ nomCom: "demote", categorie: 'sir bravo-Group', reaction: "👨🏿‍�
 
 
 // COMMAND TO REMOVE MEMBERS 
-ezra({ nomCom: "remove", categorie: 'sir bravo-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "remove", categorie: 'sir bugfixef-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, nomAuteurMessage, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("for groups only"); }
@@ -355,7 +355,7 @@ ezra({ nomCom: "remove", categorie: 'sir bravo-Group', reaction: "😱" }, async
 })
 
 // COMMAND TO DELETE 
-ezra({ nomCom: "del", categorie: 'sir bravo-Group',reaction:"🧹" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "del", categorie: 'sir bugfixed-Group',reaction:"🧹" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, verifGroupe,auteurMsgRepondu,idBot, msgRepondu, verifAdmin, superUser} = commandeOptions;
   
@@ -495,7 +495,7 @@ ezra({ nomCom: "info", categorie: 'sir bravo-Group' }, async (dest, zk, commande
 
  // COMMAND TO ACTIVATE ANTIBOT
 
- ezra({ nomCom: "antibot", categorie: 'sir bravo-Group', reaction: "👾" }, async (dest, zk, commandeOptions) => {
+ ezra({ nomCom: "antibot", categorie: 'sir bbugfixed-Group', reaction: "👾" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -646,7 +646,7 @@ ezra({ nomCom: "gdesc", categorie: 'sir bravo-Group' }, async (dest, zk, command
 }) ;
 
 // COMMAND TO GET GROUP PROFILE PHOTO
-ezra({ nomCom: "gpp", categorie: 'sir bravo-Group' }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "gpp", categorie: 'sir bigfixed-Group' }, async (dest, zk, commandeOptions) => {
 
   const { repondre, msgRepondu, verifAdmin } = commandeOptions;
 
@@ -736,7 +736,7 @@ ezra({nomCom:"tag",categorie:'sir bravo-Group',reaction:"🎤"},async(dest,zk,co
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER XMD',
+          pack: 'BUGFIXED SULEXH XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -844,7 +844,7 @@ ezra({nomCom:"hidetag",categorie:'bugfixed sulexh-Group',reaction:"🎤"},async(
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER XMD',
+          pack: 'BUGFIXED SULEXH',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -887,7 +887,7 @@ ezra({nomCom:"hidetag",categorie:'bugfixed sulexh-Group',reaction:"🎤"},async(
 
 
 // COMMAND TO TAG ALL MEMBERS
-ezra({nomCom:"htag",categorie:'sir bravo-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"htag",categorie:'sir bufixed-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 
@@ -952,7 +952,7 @@ ezra({nomCom:"htag",categorie:'sir bravo-Group',reaction:"🎤"},async(dest,zk,c
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER XMD',
+          pack: 'BUGFIXED SULEXH XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -1150,7 +1150,7 @@ ezra({
 // COMMAND TO KICK
 ezra({
   nomCom : 'fkick',
-  categorie : 'sir bravo-Group'
+  categorie : 'sir bbugfixed-Group'
 } , async (dest,zk,commandeOptions) => {
 
   const {arg , repondre , verifAdmin , superUser , verifezraAdmin } = commandeOptions ;
@@ -1184,7 +1184,7 @@ ezra({
 // COMMAND TO NSFW
 ezra({
       nomCom : 'nsfw',
-      categorie : 'sir bravo-Group'
+      categorie : 'sir bbugfixed-Group'
 }, async (dest,zk,commandeOptions) => {
   
     const {arg , repondre , verifAdmin } = commandeOptions ;
