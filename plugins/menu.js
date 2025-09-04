@@ -264,7 +264,7 @@ ezra({
             contextInfo: {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363366284524544@newsletter",
+                    newsletterJid: "120363416402842348@newsletter",
                     newsletterName: "BUFIXED-SULEXH-XMD",
                     serverMessageId: -1
                 },
