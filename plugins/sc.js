@@ -40,7 +40,7 @@ const date = moment().format('DD/MM/YYYY');
 ❂━━━➳════⊷════➳━━━━❂
 
 *GITHUB LINK*
-> https://github.com/toxiclover-tech
+> https://github.com/heroestech68
 
 *TELEGRAM GROUP*
 > 
@@ -49,10 +49,11 @@ const date = moment().format('DD/MM/YYYY');
 >https://wa.link/3rc9x7
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o
+> https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://github.com/black-spider436/bugfixed-sulexh-xmd
+> https://github.com/heroestech68/BUFIXED-SULEXH-XMD
+
 ╭──━━━━═════════━━━━⦿
 ┃ ❂━━━════➳════━━━━❂
 ┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
