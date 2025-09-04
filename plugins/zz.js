@@ -92,11 +92,11 @@ ezra({
       {
       caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ ELDORET 
+┊ *Made:* in KENYA/ TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by BUGFIXED SULEXH TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
 
 > regards bugfixed sulexh `,
         audio: { url: downloadUrl },
@@ -118,9 +118,10 @@ ezra({
 ╭┈┈┈⊷
 ┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* BUGFIXED SULEXH TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
+
 
 > regards bugfixed sulexh `,
         document: { url: downloadUrl },
@@ -142,9 +143,10 @@ ezra({
 ╭┈┈┈⊷
 ┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by bugfixed sulexhs tech
+┊ *Powered:* by bugfixed sulexh tech
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
+
 > regards bugfixed sulexh `,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
@@ -242,9 +244,10 @@ ezra({
 ╭┈┈┈⊷
 ┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by BUGFIXED SULEXH TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
+
 
 > regards bugfixed sulexh `,
         video: { url: downloadUrl },
@@ -266,9 +269,10 @@ ezra({
 ╭┈┈┈⊷
 ┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by BUGFIXED SULEXH TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/bugfixed-sulexh-xmd
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
+
 
 > regards bugfixed sulexh `,
         document: { url: downloadUrl },
