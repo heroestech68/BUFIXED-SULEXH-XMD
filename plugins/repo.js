@@ -8,7 +8,7 @@ const moment = require("moment-timezone");
 const set = require(__dirname + "/../set");
 moment.tz.setDefault('' + set.TIMEZONE);
 ezra({
-  'nomCom': "ping3",
+  'nomCom': "ping",
   'categorie': "General-braviii"
 }, async (_0x72e714, _0x36286d, _0x2f6f18) => {
   let {
@@ -32,7 +32,7 @@ ezra({
       'contextInfo': {
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363366284524544@newsletter",
+          'newsletterJid': "120363416402842348@newsletter",
           'newsletterName': "toxic lover",
           'serverMessageId': 0x8f
         },
@@ -76,7 +76,7 @@ ezra({
       'contextInfo': {
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363366284524544@newsletter",
+          'newsletterJid': "120363416402842348@newsletter",
           'newsletterName': "bugfixed sulexh",
           'serverMessageId': 0x8f
         },
@@ -101,7 +101,7 @@ ezra({
       'contextInfo': {
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363366284524544@newsletter",
+          'newsletterJid': "120363416402842348@newsletter",
           'newsletterName': "bugfixed sulexh",
           'serverMessageId': -1
         }
