@@ -14,7 +14,6 @@ RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /
     webp \
     git \
     curl \
- && apt-get upgrade -y \
  && rm -rf /var/lib/apt/lists/*
 
 # Install PM2 globally (for process management)
@@ -44,3 +43,4 @@ CMD ["pm2-runtime", "start", "control.js"]
 
 # Alternative without PM2:
 # CMD ["node", "--experimental-specifier-resolution=node", "index.js"]
+
