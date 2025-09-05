@@ -11,7 +11,7 @@ var lod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"Jeepers creeper xmd load Completed✅"
+"bugfixed sulexh xmd load Completed✅"
 ]
 let { key } = await zk.sendMessage(dest, {text: 'Loading Please Wait'})
 
