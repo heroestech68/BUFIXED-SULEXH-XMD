@@ -55,7 +55,7 @@ ezra({ nomCom: "dev", categorie: "bugfixed sulexhs tech-devs", reaction: "🚜" 
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "bugfixed sulexh", numero: "254724908267" },
+      { nom: "bugfixed sulexh", numero: "254768161116" },
       { nom: "bugfixed sulexh -xmd tech", numero: "264768161116" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
