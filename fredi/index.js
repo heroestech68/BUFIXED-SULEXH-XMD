@@ -1,8 +1,9 @@
 /**
  * fredi/index.js
- * Merged auth and socket logic adapted from Knightbot for reliable pairing.
- * Preserves original branding and handlers entrypoints.
+ * FIXED: Stable Baileys pairing + QR + session restore.
+ * Original brand preserved: Sulexh-XMD
  */
+
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -14,18 +15,19 @@ const {
     useMultiFileAuthState,
     DisconnectReason,
     fetchLatestBaileysVersion,
-    makeCacheableSignalKeyStore,
-    jidDecode,
-    generateNow
+    makeCacheableSignalKeyStore
 } = require('@whiskeysockets/baileys');
 
-// lightweight store (use existing if present)
+// Load lightweight store if available
 let store;
-try { store = require('../lib/lightweight_store'); store.readFromFile(); } catch(e){
+try {
+    store = require('../lib/lightweight_store');
+    store.readFromFile();
+} catch (e) {
     const { makeInMemoryStore } = require('@whiskeysockets/baileys');
     store = makeInMemoryStore({ logger: pino({ level: 'silent' }) });
-    store.readFromFile = ()=>{};
-    store.writeToFile = ()=>{};
+    store.readFromFile = () => {};
+    store.writeToFile = () => {};
 }
 
 async function startBot() {
@@ -37,56 +39,80 @@ async function startBot() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: true,
-            browser: ['Sulexh-XMD','Chrome','1.0'],
+            browser: ['Sulexh-XMD', 'Chrome', '1.0'],
             auth: {
                 creds: state.creds,
-                keys: makeCacheableSignalKeyStore(state.keys, pino({ level: 'silent' }).child({ level: 'silent' }))
+                keys: makeCacheableSignalKeyStore(
+                    state.keys,
+                    pino({ level: 'silent' }).child({ level: 'silent' })
+                )
             },
             markOnlineOnConnect: true
         });
 
-        store.bind && store.bind(sock.ev);
+        // Bind store
+        if (store.bind) store.bind(sock.ev);
 
+        // Save credentials
         sock.ev.on('creds.update', saveCreds);
 
-        sock.ev.on('connection.update', (update) => {
+        // Connection updates
+        sock.ev.on('connection.update', async (update) => {
             const { connection, lastDisconnect, qr } = update;
+
+            // Show QR
             if (qr) {
-                console.log('QR generated — scan with WhatsApp or use pairing code.');
-                try { qrcode.generate(qr, { small: true }); } catch(e){}
-                try { fs.writeFileSync(path.join(__dirname,'last.qr.txt'), qr); } catch(e){}
-                // Derive pairing code:
-                try {
-                    const hash = require('crypto').createHash('sha256').update(qr).digest('hex');
-                    const pairingCode = hash.slice(0,32).match(/.{1,4}/g).join('-').toUpperCase();
-                    console.log('PAIRING CODE:', pairingCode);
-                    fs.writeFileSync(path.join(__dirname,'last_pairing_code.txt'), pairingCode);
-                } catch(e){}
+                console.log('📌 Scan this QR to connect WhatsApp:');
+                try { qrcode.generate(qr, { small: true }); } catch (e) {}
+                fs.writeFileSync(path.join(__dirname, 'last.qr.txt'), qr);
             }
-            if (connection === 'open') console.log('Connected to WhatsApp — pairing complete.');
+
+            // If session NOT registered → generate REAL pairing code
+            if (!state.creds.registered) {
+                try {
+                    const phoneNumber = process.env.NUMBER || ''; // Optional
+                    const code = await sock.requestPairingCode(phoneNumber);
+                    console.log('📌 PAIRING CODE:', code);
+                    fs.writeFileSync(
+                        path.join(__dirname, 'last_pairing_code.txt'),
+                        code
+                    );
+                } catch (e) {
+                    console.log('❌ Failed to get pairing code:', e.message);
+                }
+            }
+
+            if (connection === 'open') {
+                console.log('✅ Connected to WhatsApp — pairing complete.');
+            }
+
             if (connection === 'close') {
                 const reason = lastDisconnect?.error?.output?.statusCode;
                 if (reason === DisconnectReason.loggedOut) {
-                    console.log('Logged out — remove session and re-pair.');
-                    try { fs.rmSync('./session', { recursive: true }); } catch(e){}
+                    console.log('⚠️ Logged out. Clearing session...');
+                    try { fs.rmSync('./session', { recursive: true }); } catch (e) {}
+                    return startBot();
                 } else {
-                    console.log('Reconnecting in 3s...');
+                    console.log('🔄 Reconnecting in 3 seconds...');
                     setTimeout(startBot, 3000);
                 }
             }
         });
 
-        sock.ev.on('messages.upsert', async (m) => {
+        // Message handler
+        sock.ev.on('messages.upsert', async (msg) => {
             try {
-                // If your project has a message handler, require and call it:
-                try { const handler = require('../main'); if(handler && handler.handleMessages) handler.handleMessages(sock,m); } catch(e){}
-            } catch(err){
-                console.error('messages.upsert error', err);
+                const handler = require('../main');
+                if (handler && handler.handleMessages) {
+                    handler.handleMessages(sock, msg);
+                }
+            } catch (e) {
+                console.error('messages.upsert error:', e);
             }
         });
 
-    } catch(err) {
-        console.error('startBot error', err);
+    } catch (err) {
+        console.error('startBot error:', err);
         setTimeout(startBot, 3000);
     }
 }
