@@ -1,9 +1,3 @@
-/**
- * fredi/index.js
- * FIXED: Stable Baileys pairing + QR + session restore.
- * Original brand preserved: Sulexh-XMD
- */
-
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -18,7 +12,7 @@ const {
     makeCacheableSignalKeyStore
 } = require('@whiskeysockets/baileys');
 
-// Load lightweight store if available
+// load lightweight store
 let store;
 try {
     store = require('../lib/lightweight_store');
@@ -50,29 +44,25 @@ async function startBot() {
             markOnlineOnConnect: true
         });
 
-        // Bind store
         if (store.bind) store.bind(sock.ev);
 
-        // Save credentials
         sock.ev.on('creds.update', saveCreds);
 
-        // Connection updates
         sock.ev.on('connection.update', async (update) => {
             const { connection, lastDisconnect, qr } = update;
 
             // Show QR
             if (qr) {
-                console.log('📌 Scan this QR to connect WhatsApp:');
-                try { qrcode.generate(qr, { small: true }); } catch (e) {}
-                fs.writeFileSync(path.join(__dirname, 'last.qr.txt'), qr);
+                console.log('📌 Scan QR to link WhatsApp:');
+                try { qrcode.generate(qr, { small: true }); } catch {}
             }
 
-            // If session NOT registered → generate REAL pairing code
-            if (!state.creds.registered) {
+            // Get REAL pairing code ONLY when needed
+            if (!state.creds.registered && update.connection === 'connecting') {
                 try {
-                    const phoneNumber = process.env.NUMBER || ''; // Optional
-                    const code = await sock.requestPairingCode(phoneNumber);
-                    console.log('📌 PAIRING CODE:', code);
+                    console.log('⏳ Requesting pairing code from WhatsApp...');
+                    const code = await sock.requestPairingCode();
+                    console.log('\n🔥 PAIRING CODE:', code, '\n');
                     fs.writeFileSync(
                         path.join(__dirname, 'last_pairing_code.txt'),
                         code
@@ -82,28 +72,31 @@ async function startBot() {
                 }
             }
 
+            // Successful connection
             if (connection === 'open') {
-                console.log('✅ Connected to WhatsApp — pairing complete.');
+                console.log('✅ WhatsApp Connected — session saved.');
             }
 
+            // Reconnect handler
             if (connection === 'close') {
                 const reason = lastDisconnect?.error?.output?.statusCode;
+
                 if (reason === DisconnectReason.loggedOut) {
-                    console.log('⚠️ Logged out. Clearing session...');
-                    try { fs.rmSync('./session', { recursive: true }); } catch (e) {}
+                    console.log('⚠️ Logged out — clearing session...');
+                    try { fs.rmSync('./session', { recursive: true }); } catch {}
                     return startBot();
-                } else {
-                    console.log('🔄 Reconnecting in 3 seconds...');
-                    setTimeout(startBot, 3000);
                 }
+
+                console.log('🔄 Reconnecting in 3 seconds...');
+                setTimeout(startBot, 3000);
             }
         });
 
-        // Message handler
+        // message handler
         sock.ev.on('messages.upsert', async (msg) => {
             try {
                 const handler = require('../main');
-                if (handler && handler.handleMessages) {
+                if (handler?.handleMessages) {
                     handler.handleMessages(sock, msg);
                 }
             } catch (e) {
