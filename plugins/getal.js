@@ -1,5 +1,5 @@
 const { ezra } = require("../fredi/ezra");
-const { Sticker, StickerTypes } = require('wa-sticker-formatter');
+const { Sticker, StickerTypes } = require('wa-sticker-maker');
 const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require("../luckydatabase/antilien");
 const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require("../luckydatabase/antibot");
 const { search, download } = require("aptoide-scraper");
@@ -18,7 +18,7 @@ ezra({ nomCom: "getallmembers", categorie: 'Group', reaction: "📣" }, async (d
   let membresGroupe = verifGroupe && infosGroupe ? infosGroupe.participants || [] : [];
 
   let tag = `========================\n  
-        🌟 *JEEPERS CREEPER-XMD GROUP MEMBERS GIDS* 🌟
+        🌟 *BUFIXED-SULEXH-XMD GROUP MEMBERS GIDS* 🌟
 ========================\n
 > regards TOXIC LOVER®\n\n`;
 
@@ -57,7 +57,7 @@ ezra({ nomCom: "tagadmin", categorie: 'Group', reaction: "📣" }, async (dest, 
   let adminsGroupe = membresGroupe.filter(membre => membre.isAdmin);
 
   let tag = `========================\n  
-        🌟 *JEEPERS CREEPER-XMD* 🌟
+        🌟 *BUFIXED-SULEXH-XMD* 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 

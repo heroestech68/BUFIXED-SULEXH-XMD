@@ -21,7 +21,7 @@ ezra({
       text: news,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD TECH NEWS",
+          title: "BUFIXED-SULEXH-XMD TECH NEWS",
           body: "keep learning", 
           thumbnailUrl: thumbnail, 
           sourceUrl: conf.GURL, 
@@ -81,7 +81,7 @@ ezra({
     
     const data = response.data;
     const messageText = `
-ᕙ⁠ *JEEPERS CREEPER-XMD HOLY BIBLE* ᕗ
+ᕙ⁠ *BUFIXED-SULEXH-XMD HOLY BIBLE* ᕗ
 
 ✿⁠ *_WE'RE READING:_* ${data.reference}
 
@@ -91,14 +91,14 @@ ezra({
 
 ✿⁠ *_LANGUAGE:_* ${data.translation_name}
 ╭────────────────◆
-│ *_Powered by jeepers creeper-xmd${conf.OWNER_NAME}*
+│ *_Powered by bugfixed sulexh -xmd${conf.OWNER_NAME}*
 ╰─────────────────◆ `;
     
     await zk.sendMessage(dest, {
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD HOLY BIBLE",
+          title: "BUFIXED-SULEXH-XMD HOLY BIBLE",
           body: `We're reading: ${data.reference}`,
           mediaType: 1,
           thumbnailUrl: "https://files.catbox.moe/8ms53d.jpg", 
@@ -153,7 +153,7 @@ ezra({
         text: definitionMessage,
         contextInfo: {
           externalAdReply: {
-            title: "JEEPERS CREEPER-XMD DICTIONARY",
+            title: "BUFIXED-SULEXH-XMD DICTIONARY",
             body: `Definition of ${term}`,
             mediaType: 1,
             thumbnailUrl: "https://files.catbox.moe/fcb1no.jpg", 
@@ -204,7 +204,7 @@ ezra({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "JEEPERS CREEPER-XMD PAIR CODE",
+            title: "BUFIXED-SULEXH-XMD PAIR CODE",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: conf.URL, 
@@ -265,7 +265,7 @@ Regards ${conf.BOT} `;
       text: formattedMessage,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD ELEMENT INFORMATION",
+          title: "BUFIXED-SULEXH-XMD ELEMENT INFORMATION",
           body: "Here is the information you requested:",
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -324,7 +324,7 @@ ezra({
       text: githubMessage,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD GITHUB USER INFO",
+          title: "BUFIXED-SULEXH-XMD GITHUB USER INFO",
           body: `Information about ${data.login}`,
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -467,7 +467,7 @@ ezra({
 
 🔗 *URL*: ${con.content_urls.mobile.page}
 
-> Powered by JEEPERS CREEPER-XMD 
+> Powered by BUFIXED-SULEXH-XMD 
     `;
     repondre(texa);
   } catch (err) {

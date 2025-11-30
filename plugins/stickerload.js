@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { Sticker, StickerTypes } = require("wa-sticker-formatter");
+const { Sticker, StickerTypes } = require('wa-sticker-maker');
 const {ezra} = require("../fredi/ezra");
 
 ezra({

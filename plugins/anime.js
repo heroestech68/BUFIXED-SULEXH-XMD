@@ -1,7 +1,7 @@
 const axios = require("axios");
 const {ezra} = require("../fredi/ezra");
 const traduire = require("../fredi/traduction");
-const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
+const {Sticker ,StickerTypes}= require('wa-sticker-maker');
 
 ezra({
   nomCom: "ranime",
@@ -81,7 +81,7 @@ ezra({
     const imdbData = response.data;
 
     let imdbInfo = "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n";
-    imdbInfo += " ``` 𝕀𝕄𝔻𝔹 𝕊𝔼𝔸ℝℂℍ 𝔹𝕐 JEEPERS CREEPER-XMD ```\n";
+    imdbInfo += " ``` 𝕀𝕄𝔻𝔹 𝕊𝔼𝔸ℝℂℍ 𝔹𝕐 BUFIXED-SULEXH-XMD ```\n";
     imdbInfo += "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";

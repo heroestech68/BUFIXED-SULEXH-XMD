@@ -81,7 +81,7 @@ ezra({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: 'THIS IS JEEPERS CREEPER-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
+        title: 'THIS IS BUFIXED-SULEXH-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
@@ -137,7 +137,7 @@ ezra({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: 'THIS IS JEEPERS CREEPER-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
+        title: 'THIS IS BUFIXED-SULEXH-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
@@ -192,7 +192,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or JEEPERS CREEPER-XMD owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or BUFIXED-SULEXH-XMD owner 🤦*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -235,7 +235,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or jeepers creepers owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or bugfixed sulexhs owner 🤦*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -435,7 +435,7 @@ ezra({
       );
 
       // Notify the user about the update and redeployment
-      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of JEEPERS CREEPER-XMD.*");
+      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of BUFIXED-SULEXH-XMD.*");
       console.log("Build details:", response.data);
     } catch (error) {
       // Handle any errors during the redeployment process

@@ -31,13 +31,13 @@ ezra({ nomCom: "deployer", categorie: "General" }, async (dest, zk, commandeOpti
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
-  let infoMsg =  `> Hello ${nomAuteurMessage} you requested for my deployer😌\n *${s.OWNER_NAME}* is my Charming good looking deployer🍂💋.\n\n> Powered by JEEPERS CREEPER-XMD Tech `;
+  let infoMsg =  `> Hello ${nomAuteurMessage} you requested for my deployer😌\n *${s.OWNER_NAME}* is my Charming good looking deployer🍂💋.\n\n> Powered by BUFIXED-SULEXH-XMD Tech `;
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JEEPERS CREEPER-XMD*, déveloper JEEPERS CREEPER-XMD Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *BUFIXED-SULEXH-XMD*, déveloper BUFIXED-SULEXH-XMD Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -47,7 +47,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Davincs Md*, déveloper JEEPERS CREEPER-XMD Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Davincs Md*, déveloper BUFIXED-SULEXH-XMD Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);

@@ -11,7 +11,7 @@ const fs = require("fs");
 ezra({
   nomCom: "img",
   aliases: ["image", "images"],
-  categorie: "sir bravine-Images",
+  categorie: "bugfixed sulexhe-Images",
   reaction: "📸"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
@@ -38,12 +38,12 @@ ezra({
     for (let i = 0; i < Math.min(results.length, 5); i++) {
       zk.sendMessage(dest, {
         image: { url: results[i].url },
-        caption: `DOWNLOAD AND ENJOY BY 🌹 JEEPERS CREEPER-XMD 🌹`,
+        caption: `DOWNLOAD AND ENJOY BY 🌹 BUFIXED-SULEXH-XMD 🌹`,
         contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363404784570099@newsletter',
-         newsletterName: "sir bravin",
+         newsletterName: "bugfixed sulexh",
          serverMessageId: 143,
           }
         }
@@ -56,7 +56,7 @@ ezra({
 ezra({
   nomCom: "insult",
   aliases: ["abuse", "tusi"],
-  categorie: "sir bravin-Search",
+  categorie: "bugfixed sulexh-Search",
   reaction: "🤷"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -81,7 +81,7 @@ ezra({
   nomCom: "fullpp",
   aliases: ["updatepp", "ppfull"],
   reaction: '🍂',
-  categorie: "sir bravin-new"
+  categorie: "bugfixed sulexh-new"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, msgRepondu, auteurMessage } = commandeOptions;
 

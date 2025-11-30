@@ -230,13 +230,13 @@ ezra({
 
     const infoMsg = `
 ╭───────────⊷
-*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  🏹 JEEPERS CREEPER-XMD 🏹*
+*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  🏹 BUFIXED-SULEXH-XMD 🏹*
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ  :* ${date}
 *┋*made in kenya: Eldoret 
 *┋* *ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-*┋* *ᴏᴡɴᴇʀ ɪs : sir bravin*
+*┋* *ᴏᴡɴᴇʀ ɪs : bugfixed sulexh*
 *┋* *ᴘʟᴜɢɪɴs ᴄᴍᴅ :* ${cm.length}
 ╰───────────⊷\n`;
     
@@ -255,7 +255,7 @@ ezra({
     }
     
     menuMsg += `
-> @made by sir bravin 2025\n`;
+> @made by bugfixed sulexh 2025\n`;
 
     try {
         await zk.sendMessage(dest, { 
@@ -264,16 +264,16 @@ ezra({
             contextInfo: {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363366284524544@newsletter",
-                    newsletterName: "JEEPERS CREEPER-XMD",
+                    newsletterJid: "120363416402842348@newsletter",
+                    newsletterName: "BUFIXED-SULEXH-XMD",
                     serverMessageId: -1
                 },
                 forwardingScore: 999,
                 externalAdReply: {
-                    title: "🏹 JEEPERS CREEPER-XMD 🏹",
+                    title: "🏹 BUFIXED-SULEXH-XMD 🏹",
                     body: "🔑🗝️ Command List",
                     thumbnailUrl: "https://files.catbox.moe/cu752j.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+                    sourceUrl: "https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }

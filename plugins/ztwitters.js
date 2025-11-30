@@ -4,7 +4,7 @@ const axios = require("axios");
 ezra({
   nomCom: "twittersearch",
   aliases: ["xsearch", "twitterlist", "tweetsearch", "xsearch"],
-  categorie: "JEEPERS CREEPER-XMD-search",
+  categorie: "BUFIXED-SULEXH-XMD-search",
   reaction: "📽️"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, arg } = commandeOptions;
@@ -26,7 +26,7 @@ ezra({
     }
 
     // Construct the search message
-    let searchMessage = `JEEPERS CREEPER-XMD PLANET TWITTER SEARCH\n\n`;
+    let searchMessage = `BUFIXED-SULEXH-XMD PLANET TWITTER SEARCH\n\n`;
     searchMessage += `Creator: ${response.data.creator}\n\n`;  // Include the creator info
 
     // Loop through search results and append details to the message
@@ -48,9 +48,9 @@ ezra({
           mentionedJid: [dest],
           externalAdReply: {
             showAdAttribution: true,
-            title: "JEEPERS CREEPER-XMD TWITTER SEARCH",
+            title: "BUFIXED-SULEXH-XMD TWITTER SEARCH",
             body: "TOXIC LOVER TECH",
-            sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+            sourceUrl: "https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16",
             mediaType: 1,
             renderLargerThumbnail: false,
           },

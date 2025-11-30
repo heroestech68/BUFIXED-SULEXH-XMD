@@ -7,9 +7,9 @@ ezra(
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
         let z =
-            "Hello I'm *✧JEEPERS CREEPER-XMD✧* \n\n " +
+            "Hello I'm *✧BUFIXED-SULEXH-XMD✧* \n\n " +
             "I'm a powerful Whatsapp Bot supporting you";
-        let d = " Made By *sir bravine*";
+        let d = " Made By *bugfixed sulexhe*";
         let varmess = z + d;
         var img = "https://files.catbox.moe/adeedv.mp4";
         await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
@@ -41,7 +41,7 @@ const sentMsg1  = await zk.sendMessage(dest, { text: 'Oh! Hi There' })
 // send a reply messagge
 const sentMsg2  = await zk.sendMessage(dest, { text: 'Oh! Hi There' }, { quoted: ms })
 // send a mentions message
-const sentMsg3  = await zk.sendMessage(dest, { text: '@254717263689', mentions: ['12345678901@s.whatsapp.net'] })
+const sentMsg3  = await zk.sendMessage(dest, { text: '@264768161116', mentions: ['12345678901@s.whatsapp.net'] })
 // send a location!
 const sentMsg4  = await zk.sendMessage(
     dest, 
@@ -83,7 +83,7 @@ const sentMsg6 = await zk.sendMessage(dest, buttonMessage)
 //send a template message!
 const templateButtons = [
     {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/adiwajshing/Baileys'}},
-    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '254717263689'}},
+    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '264768161116'}},
     {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
 

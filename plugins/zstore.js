@@ -3,13 +3,13 @@ const { ezra } = require('../fredi/ezra');
 
 ezra({
   nomCom: "happi",
-  categorie: "JEEPERS CREEPER-XMD-funs",
+  categorie: "BUFIXED-SULEXH-XMD-funs",
   reaction: "😂"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
   try {
-    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *JEEPERS CREEPER-XMD HAPPY WE GO...* 🤦" });
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *BUFIXED-SULEXH-XMD HAPPY WE GO...* 🤦" });
     const animations =  ['😃', '😄', '😁', '😊', '😎', '🥳', '😸', '😹', '🌞', '🌈', '😃', '😄', '😁', '😊', '😎', '🥳', '😸', '😹', '🌞', '🌈', '😃', '😄', '😁', '😊'];
     for (const animation of animations) {
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -32,13 +32,13 @@ ezra({
 ezra({
   nomCom: "heart",
   aliases: ["moyo", "hrt"],
-  categorie: "JEEPERS CREEPER-XMD-fun",
+  categorie: "BUFIXED-SULEXH-XMD-fun",
   reaction: "🫀"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
   try {
-    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *JEEPERS CREEPER-XMD HEART WE GO...* 🤦" });
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *BUFIXED-SULEXH-XMD HEART WE GO...* 🤦" });
     const animations =  ['💖', '💗', '💕', '❤️', '💛', '💚', '🫀', '💙', '💜', '🖤', '♥️', '🤍', '🤎', '💗', '💞', '💓', '💘', '💝', '♥️', '💟', '🫀', '❤️'];
     for (const animation of animations) {
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -60,13 +60,13 @@ ezra({
 });
 ezra({
   nomCom: "angry",
-  categorie: "JEEPERS CREEPER-XMD-fun",
+  categorie: "BUFIXED-SULEXH-XMD-fun",
   reaction: "🥺"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
   try {
-    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *JEEPERS CREEPER-XMD ANGRY HERE WE GO...* 🤦" });
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *BUFIXED-SULEXH-XMD ANGRY HERE WE GO...* 🤦" });
     const animations =   ['😡', '😠', '🤬', '😤', '😾', '😡', '😠', '🤬', '😤', '😾'];
     for (const animation of animations) {
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -89,13 +89,13 @@ ezra({
 ezra({
   nomCom: "sad",
   aliases: ["heartbroken", "hrtbroken"],
-  categorie: "JEEPERS CREEPER-XMD-fun",
+  categorie: "BUFIXED-SULEXH-XMD-fun",
   reaction: "😒"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
   try {
-    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *JEEPERS CREEPER-XMD SAD WE GO...* 🤦" });
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *BUFIXED-SULEXH-XMD SAD WE GO...* 🤦" });
     const animations =  ['🥺', '😟', '😕', '😖', '😫', '🙁', '😩', '😥', '😓', '😪', '😢', '😔', '😞', '😭', '💔', '😭', '😿'];
     for (const animation of animations) {
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -118,13 +118,13 @@ ezra({
 ezra({
   nomCom: "shy",
   aliases: ["shyoff", "shyy"],
-  categorie: "JEEPERS CREEPER-XMD-fun",
+  categorie: "BUFIXED-SULEXH-XMD-fun",
   reaction: "🥂"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
   try {
-    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *JEEPERS CREEPER-XMD SHY WE GO...* 🤦" });
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *BUFIXED-SULEXH-XMD SHY WE GO...* 🤦" });
     const animations =  ['😳', '😊', '😶', '🙈', '🙊', '😳', '😊', '😶', '🙈', '🙊'];
     for (const animation of animations) {
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -147,13 +147,13 @@ ezra({
 ezra({
   nomCom: "moon",
   aliases: ["mon", "mwezi"],
-  categorie: "JEEPERS CREEPER-XMD-fun",
+  categorie: "BUFIXED-SULEXH-XMD-fun",
   reaction: "🌚"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
   try {
-    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *JEEPERS CREEPER-XMD MOON WE GO...* 🤦" });
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *BUFIXED-SULEXH-XMD MOON WE GO...* 🤦" });
     const animations =   ['🌗', '🌘', '🌑', '🌒', '🌓', '🌔', '🌕', '🌖', '🌗', '🌘', '🌑', '🌒', '🌓', '🌔', '🌕', '🌖', '🌗', '🌘', '🌑', '🌒', '🌓', '🌔', '🌕', '🌖', '🌗', '🌘', '🌑', '🌒', '🌓', '🌔', '🌕', "🌚🌝"];
     for (const animation of animations) {
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -176,13 +176,13 @@ ezra({
 
 ezra({
   nomCom: "nikal",
-  categorie: "JEEPERS CREEPER-XMD-fun",
+  categorie: "BUFIXED-SULEXH-XMD-fun",
   reaction: "⁉️"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
   try {
-    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *JEEPERS CREEPER-XMD NIKAL WE GO...* 🤦" });
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *BUFIXED-SULEXH-XMD NIKAL WE GO...* 🤦" });
     const animations = ["   ⣠⣶⡾⠏⠉⠙⠳⢦⡀   ⢠⠞⠉⠙⠲⡀ \n  ⣴⠿⠏          ⢳⡀ ⡏         ⢷\n⢠⣟⣋⡀⢀⣀⣀⡀ ⣀⡀   ⣧ ⢸          ⡇\n⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲     ⣿  ⣸   Nikal   ⡇\n ⣟⣿⡭     ⢱        ⣿  ⢹           ⡇\n  ⠙⢿⣯⠄   __        ⡿  ⡇        ⡼\n   ⠹⣶⠆     ⡴⠃    ⠘⠤⣄⣠⠞ \n    ⢸⣷⡦⢤⡤⢤⣞⣁          \n ⢀⣤⣴⣿⣏⠁  ⠸⣏⢯⣷⣖⣦⡀      \n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿      \n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏    ⣄⢸      `", "   ⣠⣶⡾⠏⠉⠙⠳⢦⡀   ⢠⠞⠉⠙⠲⡀ \n  ⣴⠿⠏          ⢳⡀ ⡏         ⢷\n⢠⣟⣋⡀⢀⣀⣀⡀ ⣀⡀   ⣧ ⢸          ⡇\n⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲     ⣿  ⣸   Lavde   ⡇\n ⣟⣿⡭     ⢱        ⣿  ⢹           ⡇\n  ⠙⢿⣯⠄  |__|     ⡿  ⡇        ⡼\n   ⠹⣶⠆     ⡴⠃    ⠘⠤⣄⣠⠞ \n    ⢸⣷⡦⢤⡤⢤⣞⣁          \n ⢀⣤⣴⣿⣏⠁  ⠸⣏⢯⣷⣖⣦⡀      \n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿      \n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏    ⣄⢸      `", "   ⣠⣶⡾⠏⠉⠙⠳⢦⡀   ⢠⠞⠉⠙⠲⡀ \n  ⣴⠿⠏           ⢳⡀ ⡏         ⢷\n⢠⣟⣋⡀⢀⣀⣀⡀ ⣀⡀   ⣧ ⢸          ⡇\n⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲    ⣿  ⣸   Pehli   ⡇\n ⣟⣿⡭     ⢱       ⣿  ⢹            ⡇\n  ⠙⢿⣯⠄  (P)       ⡿  ⡇        ⡼\n   ⠹⣶⠆     ⡴⠃    ⠘⠤⣄⣠⠞ \n    ⢸⣷⡦⢤⡤⢤⣞⣁          \n ⢀⣤⣴⣿⣏⠁  ⠸⣏⢯⣷⣖⣦⡀      \n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿      \n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏    ⣄⢸      `", "   ⣠⣶⡾⠏⠉⠙⠳⢦⡀   ⢠⠞⠉⠙⠲⡀ \n  ⣴⠿⠏           ⢳⡀ ⡏         ⢷\n⢠⣟⣋⡀⢀⣀⣀⡀ ⣀⡀   ⣧ ⢸          ⡇\n⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲    ⣿  ⣸  Fursat  ⡇\n ⣟⣿⡭     ⢱         ⣿  ⢹           ⡇\n  ⠙⢿⣯⠄   __        ⡿  ⡇        ⡼\n   ⠹⣶⠆     ⡴⠃    ⠘⠤⣄⣠⠞ \n    ⢸⣷⡦⢤⡤⢤⣞⣁          \n ⢀⣤⣴⣿⣏⠁  ⠸⣏⢯⣷⣖⣦⡀      \n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿      \n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏    ⣄⢸      `", "   ⣠⣶⡾⠏⠉⠙⠳⢦⡀   ⢠⠞⠉⠙⠲⡀ \n  ⣴⠿⠏           ⢳⡀ ⡏         ⢷\n⢠⣟⣋⡀⢀⣀⣀⡀ ⣀⡀   ⣧ ⢸          ⡇\n⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲    ⣿  ⣸  Meeee   ⡇\n ⣟⣿⡭     ⢱         ⣿  ⢹           ⡇\n  ⠙⢿⣯⠄  |__|      ⡿  ⡇        ⡼\n   ⠹⣶⠆     ⡴⠃    ⠘⠤⣄⣠⠞ \n    ⢸⣷⡦⢤⡤⢤⣞⣁          \n ⢀⣤⣴⣿⣏⠁  ⠸⣏⢯⣷⣖⣦⡀      \n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿      \n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏    ⣄⢸      `", "   ⣠⣶⡾⠏⠉⠙⠳⢦⡀   ⢠⠞⠉⠙⠲⡀ \n  ⣴⠿⠏           ⢳⡀ ⡏         ⢷\n⢠⣟⣋⡀⢀⣀⣀⡀ ⣀⡀   ⣧ ⢸           ⡇\n⢸⣯⡭⠁⠸⣛⣟⠆⡴⣻⡲   ⣿  ⣸   Nikal   ⡇\n ⣟⣿⡭     ⢱        ⣿  ⢹            ⡇\n  ⠙⢿⣯⠄  lodu     ⡿  ⡇       ⡼\n   ⠹⣶⠆       ⡴⠃    ⠘⠤⣄⣠⠞ \n    ⢸⣷⡦⢤⡤⢤⣞⣁          \n ⢀⣤⣴⣿⣏⠁  ⠸⣏⢯⣷⣖⣦⡀      \n⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿      \n⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏    ⣄⢸ "];
 
     for (const animation of animations) {
@@ -206,13 +206,13 @@ ezra({
 
 ezra({
   nomCom: "hand",
-  categorie: "JEEPERS CREEPER-XMD-fun",
+  categorie: "BUFIXED-SULEXH-XMD-fun",
   reaction: "👊"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
   try {
-    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *JEEPERS CREEPER-XMD HAND WE GO...* 🤦" });
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *BUFIXED-SULEXH-XMD HAND WE GO...* 🤦" });
     const animations = [
       '8✊️===D', '8=✊️==D', '8==✊️=D', '8===✊️D', '8==✊️=D', '8=✊️==D', 
       '8✊️===D', '8=✊️==D', '8==✊️=D', '8===✊️D', '8==✊️=D', '8=✊️==D', 

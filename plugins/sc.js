@@ -40,7 +40,7 @@ const date = moment().format('DD/MM/YYYY');
 ❂━━━➳════⊷════➳━━━━❂
 
 *GITHUB LINK*
-> https://github.com/toxiclover-tech
+> https://github.com/heroestech68
 
 *TELEGRAM GROUP*
 > 
@@ -49,14 +49,15 @@ const date = moment().format('DD/MM/YYYY');
 >https://wa.link/3rc9x7
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o
+> https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://github.com/black-spider436/jeepers-creeper-xmd
+> https://github.com/heroestech68/BUFIXED-SULEXH-XMD
+
 ╭──━━━━═════════━━━━⦿
 ┃ ❂━━━════➳════━━━━❂
 ┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃▓▒ *DEV* : *JEEPERS CREEPER-XMD BOT*
+┃▓▒ *DEV* : *BUFIXED-SULEXH-XMD BOT*
 ┃ ❂━━━════➳════━━━━❂
 ⁠⁠⁠⁠╰──━━━━═════════━━━━⦿ 
   `;
@@ -64,7 +65,7 @@ const date = moment().format('DD/MM/YYYY');
 let menuMsg = `
      ╭──━━━━══⊷══━━━━⦿
      ┃ ❂━━━━━━━━━━━━❂
-     ┃▓ JEEPERS CREEPER-XMD 
+     ┃▓ BUFIXED-SULEXH-XMD 
      ┃ ❂━━━━━━━━━━━━❂
      ╰──━━━━══⊷══━━━━⦿
 ❂━━━━═════⊷═════━━━━❂
@@ -85,7 +86,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *DAVINCS MD V1*, Developed By  kingsleybravo381@gmail.com(JEEPERS CREEPER-XMD)" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *DAVINCS MD V1*, Developed By  kingsleybravo381@gmail.com(BUFIXED-SULEXH-XMD)" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);

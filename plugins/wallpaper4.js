@@ -16,7 +16,7 @@ ezra({
     'image': {
       'url': 'https://files.catbox.moe/8cxyv5.jpg'
     },
-    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚘Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (JEEPERS CREEPER-XMD)🚗MADE BY JEEPERS CREEPER-XMD tech"
+    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚘Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (BUFIXED-SULEXH-XMD)🚗MADE BY BUFIXED-SULEXH-XMD tech"
   });
 });
 console.log("mon test"); 

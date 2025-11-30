@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { ezra } = require("../fredi/ezra");
 ezra({ nomCom: "altest", reaction: "💐", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = '🅼🆈 🅽🅰🅼🅴 🅸🆂 *JEEPERS CREEPER-XMD* ғᴇʀʀᴀʀɪ 🚗 \n\n ' + "i'm a whatsapp bot multi-device Made ";
-    let d = ' by *sir bravin*';
+    let z = '🅼🆈 🅽🅰🅼🅴 🅸🆂 *BUFIXED-SULEXH-XMD* ғᴇʀʀᴀʀɪ 🚗 \n\n ' + "i'm a whatsapp bot multi-device Made ";
+    let d = ' by *bugfixed sulexh*';
     let varmess = z + d;
     var img = 'https://files.catbox.moe/vjll6d.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
@@ -19,7 +19,7 @@ console.log("mon test");
 
 async function  execute  (origineMessage,zok) {
   console.log("Commande saisie !!!s")
-   let z ='Hi my name is *JEEPERS CREEPER-XMD* \n\n '+' I'm a Multi-device Whatsapp bot '
+   let z ='Hi my name is *BUFIXED-SULEXH-XMD* \n\n '+' I'm a Multi-device Whatsapp bot '
       let d =' developed by *TOXIC LOVER*'
       let varmess=z+d
       var img='https://files.catbox.moe/vjll6d.jpg'

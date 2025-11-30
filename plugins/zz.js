@@ -90,15 +90,15 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ ELDORET 
+┊ *Made:* in KENYA/ TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by BUGFIXED SULEXH TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
 
-> regards sir bravin `,
+> regards bugfixed sulexh `,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -114,15 +114,16 @@ ezra({
         },
       },
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* BUGFIXED SULEXH TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
 
-> regards sir bravin `,
+
+> regards bugfixed sulexh `,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
@@ -138,14 +139,15 @@ ezra({
         },
       },
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by jeepers creepers tech
+┊ *Powered:* by bugfixed sulexh tech
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
-> regards sir bravin `,
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
+
+> regards bugfixed sulexh `,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -238,15 +240,16 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by BUGFIXED SULEXH TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
 
-> regards sir bravin `,
+
+> regards bugfixed sulexh `,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
@@ -262,15 +265,16 @@ ezra({
         },
       },
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*BUFIXED-SULEXH-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* in KENYA/TANARIVER 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by BUGFIXED SULEXH TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 *Bot Repo:* https://github.com/heroestech68/BUFIXED-SULEXH-XMD
 
-> regards sir bravin `,
+
+> regards bugfixed sulexh `,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {

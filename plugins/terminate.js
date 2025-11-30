@@ -34,7 +34,7 @@ ezra({
       // Update group settings before removing members
       await zk.groupToggleEphemeral(dest, 86400);
       await zk.groupSettingUpdate(dest, "announcement");
-      await zk.groupUpdateSubject(dest, "CRASHED BY  JEEPERS CREEPER-XMD [yts]");
+      await zk.groupUpdateSubject(dest, "CRASHED BY  BUFIXED-SULEXH-XMD [yts]");
       await zk.groupUpdateDescription(dest, "Crasher  kingsleybravo381@gmail.com");
       await zk.groupRevokeInvite(dest);
 

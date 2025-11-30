@@ -5,7 +5,7 @@ exports.reaction = exports.recept_message = exports.getBuffer = exports.zJson = 
 const axios = require('axios');
 const path = require("path");
 const cheerio = require("cheerio");
-const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
+const { Sticker, createSticker, StickerTypes } = require('wa-sticker-maker');
 const baileys_1 = require("@whiskeysockets/baileys");
 const fs = require('fs-extra');
 const util = require('util');

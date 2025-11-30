@@ -5,7 +5,7 @@ const { ezra } = require("../fredi/ezra");
 ezra({ nomCom: "channel", reaction: "💐", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
     let z = 'Salut je m\'appelle BUGFIXED SULEXH-XMD* \n\n ' + 'je suis un bot Whatsapp Multi-appareil voici la chaîne';
-    let d = ' developpé par *sir bravin*';
+    let d = ' developpé par *bugfixed sulexh*';
     let varmess = z + d;
     var lien = 'https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16';  // Remplacez cet URL par le lien que vous souhaitez envoyer
     await zk.sendMessage(dest, { text: varmess + "\n" + lien });

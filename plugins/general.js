@@ -2,7 +2,7 @@ const { ezra } = require("../fredi/ezra");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../luckydatabase/sudo")
 const conf = require("../set");
 
-ezra({ nomCom: "owner", categorie: "JEEPERS CREEPER-XMD-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "owner", categorie: "BUFIXED-SULEXH-XMD-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -51,16 +51,16 @@ ezra({ nomCom: "owner", categorie: "JEEPERS CREEPER-XMD-devs", reaction: "🚜" 
   }
 });
 
-ezra({ nomCom: "dev", categorie: "jeepers creepers tech-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "dev", categorie: "bugfixed sulexhs tech-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Toxic lover", numero: "254724908267" },
-      { nom: "jeepers creeper-xmd tech", numero: "254717263689" },
+      { nom: "bugfixed sulexh", numero: "254768161116" },
+      { nom: "bugfixed sulexh -xmd tech", numero: "264768161116" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "Uuhh Hellow This Is JEEPERS CREEPER-XMD Dev Contacts Check✅:\n\n";
+    let message = "Uuhh Hellow This Is BUFIXED-SULEXH-XMD Dev Contacts Check✅:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -91,11 +91,11 @@ else {
 }
 });
 
-ezra({ nomCom: "support", categorie: "jeepers creeper-xmd-devs" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "support", categorie: "bugfixed sulexh -xmd-devs" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zsendMessage(auteurMessage,{text :`https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g`},{quoted :ms})
+  await zsendMessage(auteurMessage,{text :`https://whatsapp.com/channel/0029VbAD3222f3EIZyXe6w16`},{quoted :ms})
 
 })
 
@@ -103,12 +103,12 @@ ezra({ nomCom: "developer", categorie: "General", reaction: "🚜" }, async (des
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Toxic lover", numero: "254724908267" },
-      { nom: "jeeper creeper-xmd tech", numero: "254717263689" },
+      { nom: "bugfixed sulexh", numero: "254724908267" },
+      { nom: "bugfixed sulexh -xmd tech", numero: "264768161116" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = " Hello👋 *Welcome to JEEPERS CREEPER-XMD * here is the developer numbers:\n\n";
+    let message = " Hello👋 *Welcome to BUFIXED-SULEXH-XMD * here is the developer numbers:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }

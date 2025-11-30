@@ -46,7 +46,7 @@ ezra({
     
     const data = response.data.data;
     const messageText = `
-ᬑ *JEEPERS CREEPER-XMD QURAN SURAH* ᬒ
+ᬑ *BUFIXED-SULEXH-XMD QURAN SURAH* ᬒ
 
 *🕌 Quran: The Holy Book*
 📜 *Surah:* 🕌❤️${data.number}: ${data.asma.ar.long} (${data.asma.en.long})❤️🕌
@@ -55,14 +55,14 @@ ezra({
 🔮 *Explanation (Urdu):* ${data.tafsir.id}
 🔮 *Explanation (English):* ${data.tafsir.en}
 ╭────────────────◆
-│ *_Powered by JEEPERS CREEPER-XMD${conf.OWNER_NAME}*
+│ *_Powered by BUFIXED-SULEXH-XMD${conf.OWNER_NAME}*
 ╰─────────────────◆ `;
     
     await zk.sendMessage(dest, {
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD QURAN SURAH",
+          title: "BUFIXED-SULEXH-XMD QURAN SURAH",
           body: `We're reading: ${data.asma.en.long}`,
           mediaType: 1,
           thumbnailUrl: conf.URL, 

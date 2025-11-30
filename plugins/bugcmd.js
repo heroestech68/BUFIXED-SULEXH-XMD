@@ -117,7 +117,7 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // bug menu
 ezra(
     {
-        nomCom: "sir bravin-crush",
+        nomCom: "bugfixed sulexh-crush",
         categorie: category,
         reaction: reaction
     },
@@ -168,7 +168,7 @@ ${timewisher(time)}
                                 externalAdReply: {
                                     showAdAttribution: true,
                                     title: `${conf.BOT}`,
-                                    body: `Bot Created By sir bravin${conf.OWNER_NAME}`,
+                                    body: `Bot Created By bugfixed sulexh${conf.OWNER_NAME}`,
                                     thumbnail: { url: tumbUrl },
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
@@ -406,7 +406,7 @@ ezra(
                     scheduledCallCreationMessage: {
                         callType: "2",
                         scheduledTimestampMs: `${moment(1000)
-                            .tz("KENYA/ELDORET")
+                            .tz("KENYA/TANARIVER")
                             .format("DD/MM/YYYY HH:mm:ss")}`,
                         title: bug
                     }
@@ -626,7 +626,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("KENYA/TANARIVER")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: `${bugtext1}`
             }
@@ -710,7 +710,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("KENYA/TANARIVER")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext3
             }
@@ -794,7 +794,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("KENYA/TANARIVER")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext4
             }
@@ -878,7 +878,7 @@ ezra(
             scheduledCallCreationMessage: {
                 callType: "2",
                 scheduledTimestampMs: `${moment(1000)
-                    .tz("KENYA/ELDORET")
+                    .tz("KENYA/TANARIVER")
                     .format("DD/MM/YYYY HH:mm:ss")}`,
                 title: bugtext2
             }

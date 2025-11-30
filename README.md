@@ -28,7 +28,7 @@
  ### 📤 Deployment Options
 
 <!-- ✅ Heroku Deploy Button (Fixed) -->
-<a href="https://heroku.com/deploy?template=https://github.com/black-spider436/jeepers-creeper-xmd" target="_blank">
+<a href="https://heroku.com/deploy?template=https://github.com/heroestech68/BUFIXED-SULEXH-XMD" target="_blank">
   <img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-purple?style=for-the-badge&logo=heroku&logoColor=white" alt="Deploy on Heroku" width="220">
 </a>
 
@@ -79,3 +79,7 @@ description of bugfixed
   | |         \|____________|    \|_______|    \|_______|    \|_______|    \|_______|    \|__|     \|__|    \|_______|             | |
   | |                                                                                                                              | |
   | |
+
+
+## ENTRY POINT
+This project uses `fredi/index.js` as the Node.js entry point. Start with `npm start`.

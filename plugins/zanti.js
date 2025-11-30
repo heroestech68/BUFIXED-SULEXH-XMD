@@ -4,7 +4,7 @@ const {
 const {
   Sticker,
   StickerTypes
-} = require("wa-sticker-formatter");
+} = require('wa-sticker-maker');
 const {
   ajouterOuMettreAJourJid,
   mettreAJourAction,
@@ -36,7 +36,7 @@ ezra({
     superUser: _0x52e750
   } = _0xf1b4e8;
   if (!_0x25588b && !_0x52e750) {
-    return _0x213880("sir bravin Admin only command.");
+    return _0x213880("bugfixed sulexh Admin only command.");
   }
   let _0x287992 = {};
   if (fs.existsSync("./fredie/anti.json")) {

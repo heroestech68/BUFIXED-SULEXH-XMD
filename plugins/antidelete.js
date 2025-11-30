@@ -6,7 +6,7 @@ let antiDeleteActive = false; // Variable pour stocker l'état de la commande an
 
 ezra({
   nomCom: "anti-delete",
-  categorie: "General-sir bravin",
+  categorie: "General-bugfixed sulexh",
   reaction: "😏"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, arg } = commandeOptions;
@@ -61,7 +61,7 @@ ezra({
       }
 
       const senderId = msg.key.participant.split('@')[0];
-      const caption = ` Anti-delete-message by ☢️ JEEPERS CREEPER-XMD XFORCE☢️\nMessage de @${senderId}`;
+      const caption = ` Anti-delete-message by ☢️ BUFIXED-SULEXH-XMD XFORCE☢️\nMessage de @${senderId}`;
       const imageCaption = { image: { url: './media/deleted-message.jpg' }, caption, mentions: [msg.key.participant] };
 
       await zk.sendMessage(idBot, imageCaption);

@@ -24,7 +24,7 @@ ezra({
       'image': {
         'url': _0x93b128
       },
-      'caption': "*powered by ✧JEEPERS CREEPER-XMD✧*"
+      'caption': "*powered by ✧BUFIXED-SULEXH-XMD✧*"
     }, {
       'quoted': _0x4eb9fe
     });

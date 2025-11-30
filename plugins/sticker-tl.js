@@ -1,6 +1,6 @@
 const { ezra } = require("../fredi/ezra");
 const axios = require("axios");
-const { Sticker, StickerTypes } = require("wa-sticker-formatter");
+const { Sticker, StickerTypes } = require('wa-sticker-maker');
 
 ezra({
   'nomCom': 'tel-sticker',
@@ -49,7 +49,7 @@ ezra({
 
       const stickerObject = new Sticker(fileBufferResponse.data, {
         pack: messageAuthor,
-        author: "JEEPERS CREEPER-XMD",
+        author: "BUFIXED-SULEXH-XMD",
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
         id: "12345",

@@ -4,7 +4,7 @@ const {ezra} = require("../fredi/ezra");
 
 ezra( {
   nomCom : "dit",
- categorie : "sir bravin-tts",
+ categorie : "bugfixed sulexh-tts",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
  
@@ -27,7 +27,7 @@ console.log(url);
 
 ezra( {
   nomCom : "itta",
- categorie : "sir bravin-tts",
+ categorie : "bugfixed sulexh-tts",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
  
@@ -50,7 +50,7 @@ console.log(url);
 
 ezra( {
   nomCom : "say",
- categorie : "sir bravin-tts",
+ categorie : "bugfixed sulexh-tts",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
  

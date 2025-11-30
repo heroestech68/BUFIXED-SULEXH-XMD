@@ -31,7 +31,7 @@ ezra({ nomCom: "videologo", categorie: "General", reaction: "🔖" }, async (des
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363404784570099@newsletter',
-         newsletterName: "@jeepers creeper-xmd",
+         newsletterName: "@bugfixed sulexh -xmd",
          serverMessageId: 143,
       },
     };
@@ -79,7 +79,7 @@ ezra({ nomCom: "videologo", categorie: "General", reaction: "🔖" }, async (des
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `> *Downloaded by ☢️ JEEPERS CREEPER-XMD ☢️ Planet*`,
+            caption: `> *Downloaded by ☢️ BUFIXED-SULEXH-XMD ☢️ Planet*`,
           }, { quoted: ms });
         }
       }
