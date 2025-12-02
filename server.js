@@ -1,43 +1,30 @@
-const express = require('express');
-const cors = require('cors');
-const { default: makeWASocket, useMultiFileAuthState } = require('@whiskeysockets/baileys');
-const qrcode = require('qrcode');
+import express from "express";
+import cors from "cors";
+import pairingRouter from "./pairing/pairing.js";
 
 const app = express();
-const port = 3000;
 
 app.use(cors());
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send('Hello World');
+// Default homepage
+app.get("/", (req, res) => {
+    res.json({
+        status: "OK",
+        message: "Sulexh-XMD Pairing API Running Successfully"
+    });
 });
 
-app.get('/generate', async (req, res) => {
-  const { state, saveCreds } = await useMultiFileAuthState('sessions');
+// Pairing code endpoint
+app.use("/", pairingRouter);
 
-  const sock = makeWASocket({
-    auth: state,
-    printQRInTerminal: true
-  });
-
-  sock.ev.on('connection.update', async (update) => {
-    const { connection, qr } = update;
-
-    if (qr) {
-      console.log('QR Code:', qr);
-      await qrcode.toFile('qr.png', qr);
-    }
-
-    if (connection === 'open') {
-      console.log('Connected!');
-      await saveCreds();
-    }
-  });
-
-  res.send('Please check your terminal for QR Code');
+// Health check for Render
+app.get("/health", (req, res) => {
+    res.json({ ok: true });
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+// Start server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`🚀 Sulexh-XMD Pairing API running on port ${PORT}`);
 });
